@@ -1,27 +1,18 @@
-# DesafioSassII y SEO
+Mathi, aca subo la pagina en proceso. Hice prácticamente todo de nuevo porque no me gustaba como estaba quedando, y hasta acá llegué más encaminada. Pero, faltan cosas. Acá una lista de las cosas que puedo hacer y hare en los siguientes dias. Y de las que necesito ayuda porque por mas vuelta que le di, nada. 
 
-El proyecto está maquetado en bootstrap apuntando a generar una estructura responsive.
+Para reformular
 
+. Reformular el logo, es ilegible, las letras deben ir más grandes.
+.Hacer mediaquery para que el navbar (me gustaria que se hiciera menú desplegable) y las cards fueran responsive.
+.achicar las imágenes nuevas de carousel.
+.armar interfase de login con todo lo que eso implica en SEO (estoy en eso, no llegue)
+.
 
-Sass II:
-Ej de nesting en el header.
-Se utilizaron listas para los h1, h2… etc.
-Se aplicaron mapas en la definición de fondos, bordes y paddings en las sections.
-Se utilizó mixin para definir el flexbox en algunas sections (display, justify-content y align-self-items).
+Cosas que no logre:
+. centrar el button de las cards.
+.y ahora se rompieron las cards, cuando puse el z-index ¿qué hago?
+Hacer que los btn conduzcan a mi pagina de login.
 
-SEO:
-Hay un solo archivo index.html que contiene las secciones. Se sumará una página más de contacto.html con el formulario de inscripción. 
+Para despejar dudas:
+. Se pueden poner en el html los íconos tomados de bootstrap sin que se despliegue toda esa cantidad de info en el “path”?
 
-Para ella se emplearon las siguientes características: 
-
-Dentro del body:
-1)se revisaron y ordenaron las etiquetas semánticas del index
-2) se respetó la jerarquía de los encabezados
-3) se modificó el h1 debido a su relevancia
-4) se revisó que las alt de las imágenes estuvieran completas
-
-Dentro del Head
-Se reformuló el title.
-Se agregaron los meta description y keywords respetando los parámetros. deseables.
-Se agregó de Open Graph los atributos Type, Title y description. Próximamente, cuando la página esté subida al servidor, se especificarán url e image.
-Se diseñó un favicon y se agregó
