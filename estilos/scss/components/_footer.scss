@@ -1,0 +1,47 @@
+
+.FooterStyle {
+    @include paddingbordermarginRaiusBgColor (0,1px solid rgba( 255, 255, 255, 0.18 ),0 1%,0px,rgb(253, 251, 251) );
+    box-shadow: 0 8px 32px 0 rgba(65, 65, 86, 0.208);
+    backdrop-filter: blur( 13px );
+    -webkit-backdrop-filter: blur( 13px );
+
+        .inscripcionFooter {
+
+            .linkEmail {
+                text-align: center;
+                a{
+                    color: gray;
+                    text-decoration: none;
+                    font-family: 'dancing script';
+                    font-size: 1.4rem;
+                    }
+                }
+
+        }
+
+
+      
+            .logo {
+            width: 40%;          
+        }   
+    
+            .redesSocialesIconosFooter {
+                  list-style: none;
+               .redessocialesFooter {
+                   padding: 0  0 1% 5%;            
+                            a  {                       
+                                color:gray;  
+                }
+            }
+        }
+
+        
+        .footerText {
+                color: gray;          
+             }
+     
+
+}
+.container-fluid-Footer {
+    background-color: rgb(179, 176, 176);
+}

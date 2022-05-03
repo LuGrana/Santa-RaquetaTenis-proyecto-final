@@ -1,0 +1,40 @@
+
+@mixin flexboxaply($display,$justifycontent,$alignintems) {
+    display: $display;
+    justify-content: $justifycontent;
+    align-items: $alignintems;  
+}
+
+@mixin paddingbordermarginRaiusBgColor ($padding-sr,$border-sr, $margin-sr, $borderRadius-sr,$bg-Color-sr) {
+    padding: $padding-sr;
+    border: $border-sr;
+    margin: $margin-sr; 
+    border-radius: $borderRadius-sr; 
+    background-color: $bg-Color-sr; 
+}
+
+
+@mixin colorsBgAndText ($bg-color, $colorP) {
+    background-color: $bg-color;
+    color: $colorP;
+
+} 
+
+@mixin tipography-FamilySizeWeightStyleColor ($fontfamily, $fontSize, $font-weight, $font-style, $textColor) {
+    font-family: $fontfamily;
+    font-size: $fontSize;
+    font-weight: $font-weight;
+    font-style:$font-style;
+    color: $textColor;
+
+}
+
+
+
+@mixin transformar($propiedad) {
+    -webkit-transform: $propiedad;
+    -ms-transform: $propiedad;
+    transform: $propiedad;
+  }
+
+  

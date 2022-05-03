@@ -1,0 +1,226 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito:wght@200&family=Square+Peg&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito:wght@200&family=Square+Peg&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Square Peg', cursive;*/
+/*Colores*/
+/*Tamaños de fuentes*/
+/*Font-Familye*/
+/*paquetes de propiedades que pueden utilizarse en diferentes lugares*/
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Square Peg', cursive;*/
+/*Colores*/
+/*Tamaños de fuentes*/
+/*Font-Family*/
+/*header Santa Raqueta*/
+header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background-color: white;
+  padding-top: 0.8%;
+  border: dotted 2px green;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  justify-content: flex-end;
+}
+header nav ul li {
+  display: flex;
+  padding: 0 30px;
+  font-size: 1.3rem;
+}
+header nav ul li a {
+  color: rgb(17, 15, 15);
+  text-shadow: 0px 4px 7px #777472;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+header .redesSocialesIconos {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+header .redesSocialesIconos .icono {
+  max-width: 40%;
+}
+
+body {
+  margin: 1.5% 2%;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  font-size: 2.5rem;
+  color: white;
+}
+
+h2 {
+  font-family: "Square Peg";
+  font-size: 2.5rem;
+  color: white;
+}
+
+h3 {
+  font-family: "Square Peg";
+  font-size: 2.5rem;
+  color: grey;
+}
+
+h4 {
+  font-family: "Square Peg";
+  font-size: 2rem;
+  color: black;
+}
+
+h5 {
+  font-family: "Square Peg";
+  font-size: 1.8rem;
+  color: black;
+}
+
+h6 {
+  font-family: "Square Peg";
+  font-size: 1.8rem;
+  color: black;
+}
+
+.leyendaSR {
+  border: solid 1px orange;
+  background-color: rgba(31, 27, 27, 0.919);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagenapaisada {
+  border: solid 1px orange;
+}
+
+.sectionPresentation {
+  border: dotted 2px green;
+  padding: 1%;
+  background-color: rgb(123, 80, 32);
+}
+.sectionPresentation .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionClases {
+  padding: 1%;
+  border: solid 1px orange;
+}
+.sectionClases .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sectionSedes {
+  padding: 1%;
+  border: dotted 2px green;
+  background-color: rgb(123, 80, 32);
+}
+#sectionSedes .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionFormulario {
+  padding: 1%;
+  border: solid 1px orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 30%;
+  line-height: 1.3rem;
+}
+
+/* animacion para comienzo-animacion para texto inscribite*/
+.pelotitaAnimada {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin-top: 4%;
+  margin-left: 40%;
+  bottom: 10%;
+  right: 5%;
+  position: fixed;
+}
+
+.pelotitaAnimadaImagen {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+}
+
+.pelotitaAnimada {
+  animation: pelotitaAnimada 2s;
+}
+
+@keyframes pelotitaAnimada {
+  30% {
+    transform: rotate(45deg) translateX(-650px) scale(6);
+  }
+}
+/* seccion 3*/
+.inscripcion {
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  text-align: center;
+}
+
+.inscripcion:hover {
+  transition: all 1s;
+  transform: scale(1.3);
+}
+
+.pelota {
+  width: 35px;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* fin seccion 3*/
+/* seccion 4 mapas sedes*/
+.mapaSedes {
+  width: 40%;
+  height: auto;
+  align-items: center;
+}
+
+/*formulario2*/
+.formulario2 {
+  border: dotted 2px green;
+  padding: 1%;
+  background-color: rgb(123, 80, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.3rem;
+}
+
+/*# sourceMappingURL=style.css.map */
