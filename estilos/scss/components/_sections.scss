@@ -5,18 +5,26 @@ background-color: white;
 
 .h1{
     @include tipography-FamilySizeWeightStyleColor ('dancing script', 2rem, bold,none, white);
- }
+}
 
 h2 {
- @include tipography-FamilySizeWeightStyleColor ('Square Peg', 2.3rem, bold, none,black);
-   }
+    @include tipography-FamilySizeWeightStyleColor ('Square Peg', 2.3rem, bold, none,black);}
 
-h3  {
+h3 {
     @include tipography-FamilySizeWeightStyleColor ("Nunito", 1.5rem, bold, italic,black);
+    background-color: rgba( 249, 244, 232, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 16px );
+    -webkit-backdrop-filter: blur( 13px );
+    border-radius: 10px;         
+    margin: 0 10% 4% 50%;
+    text-align: center; 
 }
 
 h4 {
     @include tipography-FamilySizeWeightStyleColor ('Nunito', 1.5rem, bold, none,black);
+    margin: 4% 2% 4% 2%;
+    background-color: cadetblue; 
 }
 
 h5 {
@@ -47,35 +55,21 @@ h6 {
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13px );
     -webkit-backdrop-filter: blur( 13px );
-    color: rgb(9, 7, 7);        
-    
-            .sectionPresentation {
-            background-color: rgba( 249, 244, 232, 0.45 );
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 16px );
-            -webkit-backdrop-filter: blur( 13px );
-            border-radius: 10px;         
-            margin: 0 10% 4% 50%;
-            text-align: center;
-            
-            
-            }
-            .estiloPresentacion2 {
-                padding: 3%;
-                margin: 0 5%;
-           
-               p {            
-                @include tipography-FamilySizeWeightStyleColor ('Assistant', 1rem, bold, none, rgb(21, 20, 20));
-                 text-align: justify;
-               }
-               p3 {
-                @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.7rem, bold, none, black);
-               
-               }
-            }
+    color: rgb(9, 7, 7); 
+        p { 
+            @include tipography-FamilySizeWeightStyleColor ('Assistant', 1rem, bold, none, rgb(21, 20, 20));  
+            padding: 3%;
+            margin: 0 5%;
+            text-align: justify;
+    }
+        p3 {
+            @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.7rem, bold, none, black);
+            padding-left: 5%;
+    }
+}
 
     
-    }
+    
 
     /* informacion sobre las clases individuales, grupales e infantiless*/
      
@@ -85,83 +79,42 @@ h6 {
     backdrop-filter: blur( 13px );
     -webkit-backdrop-filter: blur( 13px );
     color: rgb(9, 7, 7);  
-
-        .estiloClases{
-            background-color: rgba( 249, 244, 232, 0.45 );
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 16px );
-            -webkit-backdrop-filter: blur( 13px );
-            border-radius: 10px;         
-            margin: 0 10% 4% 50%;
-            text-align: center;
-        }
-        
-        .clasesTitulos{
-            margin: 4% 2% 4% 2%;
-            background-color: cadetblue; 
-                    h4{
-                    margin-left: 2%;
-                }
-        }
-    }
+}
    
 
 
 /* direccion y mapas de las sedes*/
 
 
-.sectionSedes {
+#sectionSedes {
     @include paddingbordermarginRaiusBgColor (7% 1%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1%,0,rgba( 249, 244, 232, 0.45 ));
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13px );
     -webkit-backdrop-filter: blur( 13px );
     color: rgb(9, 7, 7); 
 
-        .tituloSedes{
-            background-color: rgba( 249, 244, 232, 0.45 );
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 16px );
-            -webkit-backdrop-filter: blur( 13px );
-            border-radius: 10px;         
-            margin: 0 10% 4% 50%;
-            text-align: center;
+       
 
         }
 
-        .clasesTitulos{
-            margin: 4% 2% 4% 2%;
-            background-color: rgb(126, 111, 45);
-            h4{
-                margin-left: 2%;
-            }
-        }
-
-    
         .mapaSedes {
         width: 100%;
         height: 100%;
         align-items: center;
     }
 
-}     
+     
 
   
     
-.sectionFormulario {
+#sectionFormulario {
     @include paddingbordermarginRaiusBgColor (7% 15%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1% 0 1%, 0,rgba( 249, 244, 232, 0.45 ));
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13px );
     -webkit-backdrop-filter: blur( 13px );
     color: rgb(9, 7, 7); 
   
-        .tituloFormulario {
-            background-color: rgba( 249, 244, 232, 0.45 );
-            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 16px );
-            -webkit-backdrop-filter: blur( 13px );
-            border-radius: 10px;         
-            margin: 0 10% 4% 50%;
-            text-align: center;   
+       
             
 
 
@@ -189,7 +142,7 @@ h6 {
                   }
                     
                 }
-            }
+            
         
 
 

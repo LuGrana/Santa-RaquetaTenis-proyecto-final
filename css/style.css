@@ -50,11 +50,9 @@ header .leyendaSR .redesSocialesIconos .redessociales a {
   color: coral;
 }
 header nav {
-  padding: 0;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 0 3% 0 1%;
-  border-radius: 0;
-  background-color: rgb(253, 251, 251);
+  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
 }
 header nav ul {
   display: flex;
@@ -120,6 +118,13 @@ h3 {
   font-weight: bold;
   font-style: italic;
   color: black;
+  background-color: rgba(249, 244, 232, 0.45);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(13px);
+  border-radius: 10px;
+  margin: 0 10% 4% 50%;
+  text-align: center;
 }
 
 h4 {
@@ -128,6 +133,8 @@ h4 {
   font-weight: bold;
   font-style: none;
   color: black;
+  margin: 4% 2% 4% 2%;
+  background-color: cadetblue;
 }
 
 h5 {
@@ -168,33 +175,23 @@ h6 {
   -webkit-backdrop-filter: blur(13px);
   color: rgb(9, 7, 7);
 }
-.sectionPresentation .sectionPresentation {
-  background-color: rgba(249, 244, 232, 0.45);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(13px);
-  border-radius: 10px;
-  margin: 0 10% 4% 50%;
-  text-align: center;
-}
-.sectionPresentation .estiloPresentacion2 {
-  padding: 3%;
-  margin: 0 5%;
-}
-.sectionPresentation .estiloPresentacion2 p {
+.sectionPresentation p {
   font-family: "Assistant";
   font-size: 1rem;
   font-weight: bold;
   font-style: none;
   color: rgb(21, 20, 20);
+  padding: 3%;
+  margin: 0 5%;
   text-align: justify;
 }
-.sectionPresentation .estiloPresentacion2 p3 {
+.sectionPresentation p3 {
   font-family: "dancing script";
   font-size: 1.7rem;
   font-weight: bold;
   font-style: none;
   color: black;
+  padding-left: 5%;
 }
 
 /* informacion sobre las clases individuales, grupales e infantiless*/
@@ -209,25 +206,9 @@ h6 {
   -webkit-backdrop-filter: blur(13px);
   color: rgb(9, 7, 7);
 }
-.sectionClases .estiloClases {
-  background-color: rgba(249, 244, 232, 0.45);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(13px);
-  border-radius: 10px;
-  margin: 0 10% 4% 50%;
-  text-align: center;
-}
-.sectionClases .clasesTitulos {
-  margin: 4% 2% 4% 2%;
-  background-color: cadetblue;
-}
-.sectionClases .clasesTitulos h4 {
-  margin-left: 2%;
-}
 
 /* direccion y mapas de las sedes*/
-.sectionSedes {
+#sectionSedes {
   padding: 7% 1%;
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 5% 1%;
@@ -238,29 +219,14 @@ h6 {
   -webkit-backdrop-filter: blur(13px);
   color: rgb(9, 7, 7);
 }
-.sectionSedes .tituloSedes {
-  background-color: rgba(249, 244, 232, 0.45);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(13px);
-  border-radius: 10px;
-  margin: 0 10% 4% 50%;
-  text-align: center;
-}
-.sectionSedes .clasesTitulos {
-  margin: 4% 2% 4% 2%;
-  background-color: rgb(126, 111, 45);
-}
-.sectionSedes .clasesTitulos h4 {
-  margin-left: 2%;
-}
-.sectionSedes .mapaSedes {
+
+.mapaSedes {
   width: 100%;
   height: 100%;
   align-items: center;
 }
 
-.sectionFormulario {
+#sectionFormulario {
   padding: 7% 15%;
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 5% 1% 0 1%;
@@ -271,16 +237,7 @@ h6 {
   -webkit-backdrop-filter: blur(13px);
   color: rgb(9, 7, 7);
 }
-.sectionFormulario .tituloFormulario {
-  background-color: rgba(249, 244, 232, 0.45);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(13px);
-  border-radius: 10px;
-  margin: 0 10% 4% 50%;
-  text-align: center;
-}
-.sectionFormulario .tituloFormulario .css-button-gradient--4 {
+#sectionFormulario .css-button-gradient--4 {
   min-width: 130px;
   height: 40px;
   color: #fff;
@@ -296,10 +253,10 @@ h6 {
   background-size: 120% auto;
   background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
 }
-.sectionFormulario .tituloFormulario .css-button-gradient--4:hover {
+#sectionFormulario .css-button-gradient--4:hover {
   background-position: right center;
 }
-.sectionFormulario .tituloFormulario .css-button-gradient--4:active {
+#sectionFormulario .css-button-gradient--4:active {
   top: 2px;
 }
 

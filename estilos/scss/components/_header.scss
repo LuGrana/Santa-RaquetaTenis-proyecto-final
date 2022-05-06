@@ -36,7 +36,10 @@ header{
     }
     
         nav {     
-            @include paddingbordermarginRaiusBgColor (0,1px solid rgba( 255, 255, 255, 0.18 ),0 3% 0 1%,0,rgb(253, 251, 251));
+            
+            box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 13px );
+            -webkit-backdrop-filter: blur( 13px );
             ul {
                 display: flex;
                 flex-direction: row;            
