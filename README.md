@@ -4,6 +4,9 @@ Pendientes:
 .Hacer mediaquery para que el navbar que como menú desplegable.
 .adar formato a las imágenes de carousel.
 .armar interfase de login con todo lo que eso implica en SEO.
+.Mejorar el formato interno de las cards
+. llenar de contenido las cards (preparar el calendario si puedo, si no, poner imagen)
+. Mejorar el formato del formulario. 
 
 Dudas:
 . ccomo entrar el button de las cards.
