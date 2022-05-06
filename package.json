@@ -1,20 +1,20 @@
 {
   "name": "santaraqueta_lucianagranagit",
   "version": "1.0.0",
-  "description": "maquetado de bootstrap",
+  "description": "sitio web de Santa Raqueta",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch estilos/scss/style.scss estilos/css/style.css"
+    "sass": "sass --watch estilos/scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LuGrana/Santa-Raqueta-Aplicando-bootstrap.git"
+    "url": "git+https://github.com/LuGrana/Santa-RaquetaTenis-proyecto-final"
   },
   "author": "Luciana Grana",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LuGrana/Santa-Raqueta-Aplicando-bootstrap/issues"
+    "url": "https://github.com/LuGrana/Santa-RaquetaTenis-proyecto-final/issues"
   },
-  "homepage": "https://github.com/LuGrana/Santa-Raqueta-Aplicando-bootstrap#readme"
+  "homepage": "https://github.com/LuGrana/Santa-RaquetaTenis-proyecto-final#readme"
 }

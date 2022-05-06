@@ -24,7 +24,7 @@ h3 {
 h4 {
     @include tipography-FamilySizeWeightStyleColor ('Nunito', 1.5rem, bold, none,black);
     margin: 4% 2% 4% 2%;
-    background-color: cadetblue; 
+    background-color: rgb(117, 156, 136); 
 }
 
 h5 {
@@ -68,85 +68,53 @@ h6 {
     }
 }
 
-    
-    
-
-    /* informacion sobre las clases individuales, grupales e infantiless*/
-     
-.sectionClases {    
+/* informacion sobre las clases individuales, grupales e infantiless*/
+#sectionClases {
     @include paddingbordermarginRaiusBgColor (7% 1%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1% 0 1%, 0,rgba( 249, 244, 232, 0.45 ));
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 13px );
-    -webkit-backdrop-filter: blur( 13px );
-    color: rgb(9, 7, 7);  
 }
    
 
 
 /* direccion y mapas de las sedes*/
-
-
 #sectionSedes {
-    @include paddingbordermarginRaiusBgColor (7% 1%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1%,0,rgba( 249, 244, 232, 0.45 ));
+    @include paddingbordermarginRaiusBgColor (7% 1%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1% 0 1%, 0,rgba( 249, 244, 232, 0.45 ));
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 13px );
-    -webkit-backdrop-filter: blur( 13px );
-    color: rgb(9, 7, 7); 
-
-       
-
-        }
-
-        .mapaSedes {
-        width: 100%;
-        height: 100%;
-        align-items: center;
-    }
-
+}
      
 
-  
-    
+ /* formulario de contacto*/     
 #sectionFormulario {
     @include paddingbordermarginRaiusBgColor (7% 15%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1% 0 1%, 0,rgba( 249, 244, 232, 0.45 ));
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 13px );
-    -webkit-backdrop-filter: blur( 13px );
-    color: rgb(9, 7, 7); 
-  
-       
-            
-
-
-                    .css-button-gradient--4 {
-                    min-width: 130px;
-                    height: 40px;
-                    color: #fff;
-                    padding: 5px 10px;
-                    font-weight: bold;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                    position: relative;
-                    display: inline-block;
-                    outline: none;
-                    border-radius: 5px;
-                    border: none;
-                    background-size: 120% auto;
-                    background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
-                  }
-                  .css-button-gradient--4:hover {
-                    background-position: right center;
-                  }
-                  .css-button-gradient--4:active {
-                    top: 2px;
-                  }
+    
+    
+    .css-button-gradient--4 {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background-size: 100% auto;
+        background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
+    }
+        .css-button-gradient--4:hover {
+        background-position: right center;
+    }
+        .css-button-gradient--4:active {
+        top: 4px;
+    }
                     
-                }
+}
             
-        
-
-
-
+ 
 /* animacion para comienzo-animacion para texto inscribite*/
 
 
