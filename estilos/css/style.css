@@ -22,7 +22,7 @@ font-family: 'Square Peg', cursive;*/
 /*Font-Family*/
 /*header Santa Raqueta*/
 header {
-  position: sticky;
+  position: sticky;  
   z-index: 10;
   top: 0;
   background-color: white;
