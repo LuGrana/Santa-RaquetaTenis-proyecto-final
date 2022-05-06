@@ -36,7 +36,7 @@ header{
     }
     
         nav {     
-            @include paddingbordermarginRaiusBgColor (0,1px solid rgba( 255, 255, 255, 0.18 ),0 1%,0,#b58c2e73);
+            @include paddingbordermarginRaiusBgColor (0,1px solid rgba( 255, 255, 255, 0.18 ),0 3% 0 1%,0,rgb(253, 251, 251));
             ul {
                 display: flex;
                 flex-direction: row;            
