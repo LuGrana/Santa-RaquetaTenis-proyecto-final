@@ -13,7 +13,6 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Nunito', sans-serif;
 font-family: 'Square Peg', cursive;
 */
-/*paquetes de propiedades que pueden utilizarse en diferentes lugares*/
 /*header Santa Raqueta*/
 header {
   position: sticky;
@@ -27,7 +26,7 @@ header .leyendaSR {
   backdrop-filter: blur(13px);
 }
 header .leyendaSR .logo {
-  width: 40%;
+  width: 30%;
   padding: 1%;
 }
 header .leyendaSR .redesSocialesIconos {
@@ -43,7 +42,7 @@ header .leyendaSR .redesSocialesIconos .redessociales a {
   color: rgb(222, 90, 38);
 }
 header nav {
-  box-shadow: 0 8px 10px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 0 10px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(13px);
   -webkit-backdrop-filter: blur(13px);
 }
@@ -54,7 +53,7 @@ header nav ul {
 header nav ul li {
   display: flex;
   padding: 0 30px;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 header nav ul li a {
   color: rgb(0, 0, 0);
@@ -92,7 +91,7 @@ body {
 
 .h1 {
   font-family: "dancing script";
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: bold;
   font-style: none;
   color: white;
@@ -123,7 +122,7 @@ h3 {
 
 h4 {
   font-family: "Nunito";
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
   font-style: none;
   color: black;
@@ -271,24 +270,40 @@ h6 {
 .FooterStyle {
   padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 0 2%;
+  margin: 0 1%;
   border-radius: 0px;
   background-color: rgb(253, 251, 251);
   box-shadow: 0 8px 32px 0 rgba(65, 65, 86, 0.208);
   backdrop-filter: blur(13px);
   -webkit-backdrop-filter: blur(13px);
 }
-.FooterStyle .inscripcionFooter .linkEmail {
+.FooterStyle .emailLinkFooter .linkEmail {
   text-align: center;
 }
-.FooterStyle .inscripcionFooter .linkEmail a {
+.FooterStyle .emailLinkFooter .linkEmail a {
   color: gray;
   text-decoration: none;
   font-family: "dancing script";
   font-size: 1.4rem;
 }
+.FooterStyle .emailLinkFooter .linkEmail a:hover {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  transform: scale(4);
+  transition: all 1s;
+}
 .FooterStyle .logo {
-  width: 40%;
+  width: 30%;
+}
+.FooterStyle .logo:hover {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  transform: scale(20%);
+  transition: all 1s;
 }
 .FooterStyle .redesSocialesIconosFooter {
   list-style: none;
@@ -299,12 +314,23 @@ h6 {
 .FooterStyle .redesSocialesIconosFooter .redessocialesFooter a {
   color: gray;
 }
-.FooterStyle .footerText {
-  color: gray;
+.FooterStyle .redesSocialesIconosFooter .redessocialesFooter a:hover {
+  text-decoration: none;
+  color: rgb(2, 2, 2);
+  font-size: 1.2rem;
+  font-weight: bolder;
+  transform: scale(2);
+  transition: all 1s;
 }
-
-.container-fluid-Footer {
-  background-color: rgb(179, 176, 176);
+.FooterStyle .derechosFooter {
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0;
+  border-radius: 0px;
+  background-color: rgb(2, 2, 2);
+  box-shadow: 0 8px 32px 0 rgba(65, 65, 86, 0.208);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
 }
 
 /*# sourceMappingURL=style.css.map */

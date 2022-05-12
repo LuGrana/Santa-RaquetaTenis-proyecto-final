@@ -3,10 +3,7 @@ Sitio web de Santa Raqueta tenis
 5 secciones: index, clases, sedes, contacto
 3 forms: 1)comentarios e info, 2) login y 3)agenda de clases online.
 
-sigo probando las cards fuera de control.
-
 mediaqueries para pantalla menor a 840 px para navbar. 
-
 
 pendientes
 .achicar las imágenes nuevas de carousel.
@@ -25,9 +22,17 @@ Pendientes:
 .Mejorar el formato interno de las cards
 . llenar de contenido las cards (preparar el calendario si puedo, si no, poner imagen)
 . Mejorar el formato del formulario. 
->>>>>>> 9f44bc19babac9cdf9e42942c96cc9ead90f3016
+
 
 Dudas:
-. ccomo entrar el button de las cards.
+. ccomo centrar el button de las cards.
 . Hacer que los btn conduzcan a mi pagina de login.
 . Que el incono de mail me dirija a la dire de santa raqueta (mailto)
+
+plan de trabajo:
+1) colocar todas las rutas
+2) rever clase de formulario y aplicarlo
+3) centrar botones de los cards 
+4) ver los formatos de los titulos de clases y sedes
+5) mediasqueries
+6) animacion principio

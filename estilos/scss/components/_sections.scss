@@ -4,7 +4,7 @@ background-color: white;
 }
 
 .h1{
-    @include tipography-FamilySizeWeightStyleColor ('dancing script', 2rem, bold,none, white);
+    @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.7rem, bold,none, white);
 }
 
 h2 {
@@ -22,7 +22,7 @@ h3 {
 }
 
 h4 {
-    @include tipography-FamilySizeWeightStyleColor ('Nunito', 1.5rem, bold, none,black);
+    @include tipography-FamilySizeWeightStyleColor ('Nunito', 1.2rem, bold, none,black);
     margin: 4% 2% 4% 2%;
     background-color: rgb(117, 156, 136); 
 }

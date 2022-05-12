@@ -15,7 +15,7 @@ header{
         backdrop-filter: blur( 13px );
          
             .logo {
-               width: 40%; 
+               width: 30%; 
                padding: 1%;         
             }   
     
@@ -25,7 +25,7 @@ header{
                 list-style: none;
             
                 .redessociales {
-                   padding: 10%;  
+                   padding:10% ;  
                    font-size: 1em;          
                         a  {                       
                                 color: rgb(222, 90, 38);  
@@ -37,7 +37,7 @@ header{
     
         nav {     
             
-            box-shadow: 0 8px 10px 0 rgba( 31, 38, 135, 0.37 );
+            box-shadow: 0 0 10px 0 rgba( 31, 38, 135, 0.37 );
             backdrop-filter: blur( 13px );
             -webkit-backdrop-filter: blur( 13px );
             ul {
@@ -46,7 +46,7 @@ header{
                 li {
                     display: flex;               
                     padding: 0 30px;
-                    font-size: 1.2rem;                
+                    font-size: 1rem;                
                     a {
                         color: rgb(0, 0, 0);  
                         font-family: 'Nunito', sans-serif; 

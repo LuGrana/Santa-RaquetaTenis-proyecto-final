@@ -1,11 +1,11 @@
 
 .FooterStyle {
-    @include paddingbordermarginRaiusBgColor (0,1px solid rgba( 255, 255, 255, 0.18 ),0 2%,0px,rgb(253, 251, 251) );
+    @include paddingbordermarginRaiusBgColor (0,1px solid rgba( 255, 255, 255, 0.18 ),0 1%,0px,rgb(253, 251, 251) );
     box-shadow: 0 8px 32px 0 rgba(65, 65, 86, 0.208);
     backdrop-filter: blur( 13px );
     -webkit-backdrop-filter: blur( 13px );
 
-        .inscripcionFooter {
+        .emailLinkFooter {
 
             .linkEmail {
                 text-align: center;
@@ -14,15 +14,31 @@
                     text-decoration: none;
                     font-family: 'dancing script';
                     font-size: 1.4rem;
+
+                        &:hover {
+                            text-decoration: none;
+                            color: rgb(2, 2, 2);
+                            font-size: 1.2rem;
+                            font-weight: bolder;
+                            transform: scale(4);
+                            transition: all 1s;
+                    }
                     }
                 }
 
         }
 
-
-      
+    
             .logo {
-            width: 40%;          
+            width: 30%;     
+            &:hover {
+                text-decoration: none;
+                color: rgb(2, 2, 2);
+                font-size: 1.2rem;
+                font-weight: bolder;
+                transform: scale(20%);
+                transition: all 1s;
+            }     
         }   
     
             .redesSocialesIconosFooter {
@@ -31,17 +47,25 @@
                    padding: 0  0 1% 5%;            
                             a  {                       
                                 color:gray;  
+                                &:hover {
+                                    text-decoration: none;
+                                    color: rgb(2, 2, 2);
+                                    font-size: 1.2rem;
+                                    font-weight: bolder;
+                                    transform: scale(2);
+                                    transition: all 1s;
+                            }
                 }
             }
         }
 
         
-        .footerText {
-                color: gray;          
+    .derechosFooter {
+        @include paddingbordermarginRaiusBgColor (0,1px solid rgba( 255, 255, 255, 0.18 ),0 ,0px,rgb(2, 2, 2) );
+        box-shadow: 0 8px 32px 0 rgba(65, 65, 86, 0.208);
+        backdrop-filter: blur( 13px );
+        -webkit-backdrop-filter: blur( 13px );       
              }
      
 
-}
-.container-fluid-Footer {
-    background-color: rgb(179, 176, 176);
 }

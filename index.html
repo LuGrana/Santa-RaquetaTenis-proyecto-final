@@ -48,20 +48,19 @@
                 </div>                
             </div> 
                       
-            <div class="col-6 d-flex justify-content-center align-self-center">
+            <div class="col-6 pt-3 d-flex justify-content-center">
                 
                     <h1 class="h1">Santa Raqueta Tenis</h1> 
                
             </div>
 
             
-            <div class="col-3 d-flex justify-content-start align-self-center" >
+            <div class="col-3 pt-3 d-flex justify-content-start" >
                 <ul class="redesSocialesIconos">
                     <!--link a correo electrónico -->
                     <li class="redessociales">
-                        <a href="https://mail.google.com/"><i class="bi bi-envelope-fill"></i></a>
-                    </li>
-                                
+                        <a href="mailto:santaraquetenis@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+                                                   
                     <!--linkea a whatsapp propio que aun no existe-->
                     <li class="redessociales">
                         <a href="https://web.whatsapp.com/"><i class="bi bi-facebook"></i></a>
@@ -85,14 +84,14 @@
     <!--navbar-->  
     
     <div class="container-fluid">      
-        <nav class="navbar d-flex justify-content-center">
+        <nav class="navbar d-flex justify-content-center align-content-center">
             <ul class="menuprincipal">
                 <li class="itemmenu"><a href="index.html">Inicio</a></li>
                 <li class="itemmenu"><a href="#sectionClases">Clases</a></li>                        
                 <li class="itemmenu"><a href="#sectionSedes">Sedes</a></li>
                 <li class="itemmenu"><a href="#sectionFormulario">Contacto</a></li>
                 <li class="buttonlogin"><button type="submit" class="css-button-fully-rounded--black"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg> | login</button>
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>| login</button></li>
             </ul>
         </nav>   
     </div>
@@ -349,8 +348,9 @@
             <div class="card">                        
                 <div class="row">
                     <div class="col order-2">
+                        <div class="container-fluid">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1976159432816!2d-58.39901298591347!3d-34.62444608045416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb1f0700810d%3A0x486ae7ce5de2402f!2sPasco%20Tenis!5e0!3m2!1sen!2sar!4v1647212820435!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"class="mapaSedes">
-                                </iframe>
+                                </iframe></div>
                     </div>
                 
                     <div class="col order-1 ">
@@ -391,7 +391,7 @@
         <!--info sobre Sede Sdo Corazón-->
         <div class="container-fluid">       
            
-                <h4>Sede Pasco</h4>
+                <h4>Sede Sagrado Corazón</h4>
         
 
         <!--card con mapa y descripcion sede Sdo Corazón-->
@@ -451,33 +451,32 @@
         <!--gridd bootstrap para formulario-->
         <div class="d-grid gap-3">
                 
-            <div class="p-2 bg-light border"><input type="name and surname" class="form-control" id="exampleFormControlInput1" placeholder= "nombre completo">
+            <div class="p-2 bg-light border"><input type="name and surname" class="form-control" id="exampleFormControlInput1" placeholder= "Nombre y Apellido" required>
             </div>
 
-            <div class="p-2 bg-light border"><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <div class="p-2 bg-light border"><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Dirección de email" required>
             </div>
 
             <div class="p-2 bg-light border">
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
                     <option selected><h6>¿Qué Clase Buscás?</h6></option>
                     <option value="1">Individual</option>
                     <option value="2">Grupal</option>
-                    <option value="3">Alta Competición</option>
                     <option value="3">Escuelita</option>
                 </select>  
             </div>
 
             <div class="p-2 bg-light border">
-                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example" required>
                     <option selected><h6>¿Qué nivel?</h6></option>
                     <option value="1">Nunca agarré una raqueta</option>
                     <option value="2">Algo se.</option>
                     <option value="3">Ya juego</option>
-                    <option value="3">Soy crack</option>
+                    <option value="4">Soy crack</option>
                 </select>
             </div>
 
-                <div class="p-2 bg-light border"><textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+                <div class="p-2 bg-light border"><textarea class="form-control" placeholder="Dejanos tu comentario" id="floatingTextarea" style="height: 100px"></textarea>
                     <label for="floatingTextarea"></label></div>
                      
                 <div class="row btn-block p-3">
@@ -504,36 +503,33 @@
 <!-- fin cuerpo ppal-->
 
 <!--footer-->
-<footer class="FooterStyle">
-    <div class="container-fluid">  
+<footer class="container-fluid">
+    <div class="FooterStyle">  
         <div class="row">
 
-            <!-- link a formulario de incripcion-->
-            <div class="col-4 p-5 order-3 d-flex justify-content-center">        
-                <div class="inscripcionFooter">  
+            <!-- link a correo electrónico footer-->
+            <div class="col-4 p-2 order-3 d-flex justify-content-center align-self-center">        
+                <div class="emailLinkFooter">  
                                        
                     <div class="linkEmail">
                         <h6>Santa Raqueta Tenis</h6>
-                        <a href="#formularioInsripcionSantaRaqueta"><p>www.santaraqueta@gmail.com</p></a>
+                        <a href="mailto:santaraquetenis@gmail.com">santaraqueta@gmail.com</a>
                     </div>
                 </div>
             </div>
                
                 
-            <div class="col-4 order-2 p-2 d-flex justify-content-center">
+            <div class="col-4 order-2 p-2 d-flex justify-content-center align-self-center">
                 <!--Logo de Santa Raqueta-->
                 <div class="logo">
                     <a href="index.html"><img src="images/logo_transparent.png" alt="Logo de Santa raqueta circulo coral con raqueta de tenis y leyenda santa raqueta" class="img-fluid float-left"></a>
                 </div>                
             </div> 
                       
-            <div class="col-4 p-3 d-flex justify-content-center">
+            <div class="col-4 p-3 d-flex justify-content-center align-self-center">
                 <div class= "container-fluid">
                     <ul class="redesSocialesIconosFooter">
-                    <!--link a correo electrónico-->
-                        <li class="redessocialesFooter">
-                            <a href="https://mail.google.com/"mail><i class="bi bi-envelope-fill"></i></a>
-                        </li>
+                   
                                 
                     <!--linkea a whatsapp propio que aun no existe-->
                         <li class="redessocialesFooter">
@@ -553,8 +549,8 @@
             </div>
         </div>
     </div>  
-    <div class="container-fluid-Footer">
-        <div class="row-3 d-flex justify-content-center">
+    <div class="derechosFooter">
+        <div class="row-3 mx-2 d-flex justify-content-center">
             <p class="footerText">*Todos los derechos reservados*</p> 
         </div>
     </div>
