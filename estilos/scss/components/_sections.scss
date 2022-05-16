@@ -8,7 +8,8 @@ background-color: white;
 }
 
 h2 {
-    @include tipography-FamilySizeWeightStyleColor ('Square Peg', 2.3rem, bold, none,black);}
+    @include tipography-FamilySizeWeightStyleColor ('Square Peg', 2.3rem, bold, none,black);
+}
 
 h3 {
     @include tipography-FamilySizeWeightStyleColor ("Nunito", 1.5rem, bold, italic,black);
@@ -121,13 +122,11 @@ h6 {
 .WapAnimada {
     margin-top: 4%;
     margin-left: 70%;
-    bottom:3%;
+    bottom:8%;
     right: 8.5%;
     position: fixed;      
     border-radius: 45%; 
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 16px );
-    -webkit-backdrop-filter: blur( 13px ); 
+    
    
     animation: pelotitaAnimada 2s
 }
@@ -136,23 +135,150 @@ h6 {
     width: 3em;
     height: 3em;
 
+ 
+}
 
-    .WapAnimada:hover {
-        transition: all 1s;
-        transform: scale(1.3);
-    }
-    
+
+
+
+
+/*cancha de tenis: area delimitada con grid*/
+
+.cuerpoCanchaTenis {
+    min-height: 100vh;
+    padding: 3%;
+    display: grid;
+    grid-template-areas: 
+    "columnaIzquierda barraArriba barraArriba columnaDerecha"
+    "columnaIzquierda cuadranteNO cuadranteNE columnaDerecha"
+    "columnaIzquierda cuadranteSO cuadranteSE columnaDerecha"
+    "columnaIzquierda barraAbajo barraAbajo columnaDerecha";
+    grid-template-columns: 13% 36% 36% 13%;
+    grid-template-rows:320px 400px 400px 320px;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.barraArriba {
+    grid-area: barraArriba;
+    border: 1px solid rgb(181, 180, 180); 
+   
+ }
+
+.columnaIzquierda {
+    grid-area: columnaIzquierda;
+    border: 1px solid rgb(181, 180, 180); 
+  
+}    
+
+.cuadranteNO {
+    grid-area: cuadranteNO;
+    border: 1px solid rgb(181, 180, 180); 
+   
+}
+
+.cuadranteNO p {
+    font-size: 1.2rem;
+    border: 1px solid rgb(181, 180, 180); 
+}
+
+.cuadranteNE {
+    grid-area: cuadranteNE;
+    border: 1px solid rgb(181, 180, 180); 
+}
+
+.cuadranteSO {
+    grid-area: cuadranteSO;
+    border: 1px solid rgb(181, 180, 180); 
    
    
 }
 
+.cuadranteSO p {
+    font-size: 1.2rem;
+    border: 1px solid rgb(181, 180, 180); 
+}
+
+.cuadranteSE {
+    grid-area: cuadranteSE;
+    border: 1px solid rgb(181, 180, 180); 
+}
+
+.columnaDerecha {
+    grid-area:columnaDerecha;
+    border: 1px solid rgb(181, 180, 180); 
+}
+
+.barraAbajo {
+    grid-area: barraAbajo;
+    border: 1px solid rgb(181, 180, 180); 
+    
+}
+/*fin de area delimitada con grid*/
+
+
+.logoSedes {
+    margin-left: 10%;
+    padding-top: 8%;
+    align-items: flex-start;
+ } 
+ .logoSedes img {
+     animation: raquetaPega 3s
+    
+ }
+ 
+@keyframes raquetaPega {
+    10% {        
+        transform: rotate(-18deg) scale(2);
+    }
+    70% {        
+        transform: rotate(45deg) 
+    }
+}
+.logoSedes img {
+    display: flex;
+    border-radius: 5%;
+    max-width: 18%;   
+    box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    -moz-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+}
+.pelotitaAnimada {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;  
+    margin-top: 4%;
+
+    position: absolute;      
+}
+.pelotitaAnimadaImagen {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;  
+}
+.pelotitaAnimada {
+    animation: pelotitaAnimada 3s
+}
 @keyframes pelotitaAnimada {
     30% {        
-        transform: rotate(45deg) translateX(-650px) scale(6);
+        transform: rotate(-8deg) translateX(-300px) scale(6);
     }
-    
+    70% {        
+        transform: rotate(45deg) translateX(650px) scale(3)
+    }
 }
 
+/* formlogin*/
 
+.formlogin {
+    @include paddingbordermarginRaiusBgColor (2% 25%,1px solid rgba( 255, 255, 255, 0.18 ),0% 1%, 0,rgba( 249, 244, 232, 0.45 ));
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    align-content: center;
+            h2 {
+                text-align: center;
+                padding-top: 2%;
 
+    }
+
+}
 

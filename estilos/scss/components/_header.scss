@@ -13,10 +13,19 @@ header{
         margin:0 1%;
         background-color: rgba(39, 60, 93);
         backdrop-filter: blur( 13px );
+       h1{&:hover {
+            transform: scale(120%);
+            transition: all 1s;}}
+        
          
             .logo {
                width: 30%; 
-               padding: 1%;         
+               padding: 1%; 
+                &:hover {
+                transform: scale(120%);
+                transition: all 1s;
+            }    
+                 
             }   
     
             .redesSocialesIconos {
@@ -25,10 +34,15 @@ header{
                 list-style: none;
             
                 .redessociales {
-                   padding:10% ;  
+                   padding:15% ;  
                    font-size: 1em;          
                         a  {                       
                                 color: rgb(222, 90, 38);  
+                                &:hover {
+                                    text-decoration: none;
+                                    color: rgb(21, 8, 2);
+                                    font-weight: bolder;
+                                }
                         }
                 }
             } 
@@ -40,6 +54,7 @@ header{
             box-shadow: 0 0 10px 0 rgba( 31, 38, 135, 0.37 );
             backdrop-filter: blur( 13px );
             -webkit-backdrop-filter: blur( 13px );
+            padding-top: 3%;
             ul {
                 display: flex;
                 flex-direction: row;            
@@ -53,7 +68,6 @@ header{
                             &:hover {
                                 text-decoration: none;
                                 color: rgb(222, 90, 38);
-                                font-size: 1.2rem;
                                 font-weight: bolder;
                             }
                         }
