@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Bienvenidos al sitio de Santa Raqueta Tenis. Aquí encontrarás información sobre clases para todas las edades y todos los niveles.Podrás agendar tu práctica online y comunicarte con nosotros a través de nuestro mail y redes sociales.">
+    <meta name="description"
+        content="Bienvenidos al sitio de Santa Raqueta Tenis. Aquí encontrarás información sobre clases para todas las edades y todos los niveles.Podrás agendar tu práctica online y comunicarte con nosotros a través de nuestro mail y redes sociales.">
 
-    <meta name="keywords" content="escuela de tenis, santa raqueta, clases de tenis, escuelita, tenis para niños, tenis en caba, tenis en ciudad de buenos aires, profesores de tenis, torneos de tenis, pasco tenis, ateneo sagrado corazon, agendar clases de tenis online, clases de tenis grupales, clases individuales de tenis">
+    <meta name="keywords"
+        content="escuela de tenis, santa raqueta, clases de tenis, escuelita, tenis para niños, tenis en caba, tenis en ciudad de buenos aires, profesores de tenis, torneos de tenis, pasco tenis, ateneo sagrado corazon, agendar clases de tenis online, clases de tenis grupales, clases individuales de tenis">
 
     <!--Open Graph-->
-    <meta property="og:type" content="web"/>
-    <meta property="og:title" content="clases de tenis en caba para todas las edades"/>
-    <meta property="og:description" content="Disfrutar del tenis en un clima distendido y familiar. Todos los niveles, todas las edades."/>
-    <meta property="og:url" content="https://lugrana.github.io/DesafioSass/clases.html"/>
-    <meta property="og:image" content="https://lugrana.github.io/DesafioSass/images/escueladedamas.jpg"/>
+    <meta property="og:type" content="web" />
+    <meta property="og:title" content="clases de tenis en caba para todas las edades" />
+    <meta property="og:description"
+        content="Disfrutar del tenis en un clima distendido y familiar. Todos los niveles, todas las edades." />
+    <meta property="og:url" content="https://lugrana.github.io/DesafioSass/clases.html" />
+    <meta property="og:image" content="https://lugrana.github.io/DesafioSass/images/escueladedamas.jpg" />
 
     <!--Favicon-->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 
     <!--link de bootstrap-->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <!-- link a hoja de estilo propia-->
-    <link 
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css">
 
     <!--Home Santa Raqueta: Presentación, info: Clases, Sedes, Horarios, Inscripcion y contacto-->
     <title>Santa Raqueta Tenis | Escuela de Tenis en CABA</title>
@@ -36,508 +38,604 @@
 
 <body>
 
-<!--header con logo, navbar y link a redes sociales y mail-->  
+    <!--header con logo, navbar y link a redes sociales y mail-->
 
-<header class="container-fluid">   
-    <div class="leyendaSR">              
-        <div class="row d-flex justify-content-center align-self-center">
-            <div class="col-3 d-flex justify-content-center">
-                <!--Logo de Santa Raqueta-->
-                <div class="logo">
-                    <a href="index.html"><img src="images/logo_transparent.png" alt="Logo de Santa raqueta circulo coral con raqueta de tenis y leyenda santa raqueta" class="img-fluid"></a>
-                </div>                
-            </div> 
-                      
-            <div class="col-6 pt-3 d-flex justify-content-center">
-                
-                    <h1 class="h1">Santa Raqueta Tenis</h1> 
-               
-            </div>
-
-            
-            <div class="col-3 pt-3 d-flex justify-content-start" >
-                <ul class="redesSocialesIconos">
-                    <!--link a correo electrónico -->
-                    <li class="redessociales">
-                        <a href="mailto:santaraquetenis@gmail.com"><i class="bi bi-envelope-fill"></i></a>
-                                                   
-                    <!--linkea a whatsapp propio que aun no existe-->
-                    <li class="redessociales">
-                        <a href="https://web.whatsapp.com/"><i class="bi bi-facebook"></i></a>
-                    </li>
-                                    
-                    <!--link a instagram que aun no existe-->                            
-                    <li class="redessociales">
-                        <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>  
-                    </li>
-        
-                    <li class="redessociales">
-                        <a href="https://www.instagram.com/"><i class="bi bi-whatsapp"></i></a>  
-                    </li>
-                </ul>    
-            </div>
-        </div>
-    </div>
-        
-   
-
-    <!--navbar-->  
-    
-    <div class="container-fluid">      
-        <nav class="navbar d-flex justify-content-center align-content-center">
-            <ul class="menuprincipal">
-                <li class="itemmenu"><a href="index.html">Inicio</a></li>
-                <li class="itemmenu"><a href="#sectionClases">Clases</a></li>                        
-                <li class="itemmenu"><a href="#sectionSedes">Sedes</a></li>
-                <li class="itemmenu"><a href="#sectionFormulario">Contacto</a></li>
-                <li class="buttonlogin"><a href="loginForm.html"><button type="submit" class="css-button-fully-rounded--black" data-bs-toggle="modalInscripcion" data-bs-target="#modalInscripcion"> login</button></a></li>
-                 
-            </ul>
-        </nav>   
-    </div>
-</header>
-<!--fin de header-->
-
-
-<!--cuerpo principal de la pagina con info de clases, sedes, horarios, inscripcion-->
-
-<main>
-
-<!--carousel de imagenes tapices de raquetas-->
-<section class="container-fluid">
-    <div class="carouselConLeyenda">
-        <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
-                <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
-            </ol>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/carousel2.jpg" class="d-block w-100" alt="tapiz de dibujo de raquetas de tenis en colores vintage ">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <div class="leyendasDeCarousel animate__animated animate__bounceInLeft">
-                            <h2>Tu escuela de tenis en CABA</h2>
-                        </div>
-                    </div>
-                </div>
-      
-                <div class="carousel-item">
-                    <img src="images/carousel3.jpg" class="d-block w-100" alt="tapiz de raquetas grises con pelotas verdes dispuestas en filas y alineadas en vertical ">
-                        <div class="carousel-caption d-none d-sm-block">
-                            <div class="leyendasDeCarousel animate__animated animate__bounceInLeft">
-                                <h2>Agendá tu clase online</h2>
-                            </div>
-                        </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="images/carousel.jpg" class="d-block w-100" alt="tapiz de raquetas de tenis grises y pelotas de tenis verdes dispuestas en filas ">
-                    <div class="carousel-caption d-none d-sm-block">
-                        <div class="leyendasDeCarousel animate__animated animate__bounceInLeft">
-                            <h2>Todas las edades, todos los niveles</h2>
-                        </div>
+    <header class="container-fluid">
+        <div class="leyendaSR">
+            <div class="row d-flex justify-content-center align-self-center">
+                <div class="col-3 d-flex justify-content-center">
+                    <!--Logo de Santa Raqueta-->
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo_transparent.png"
+                                alt="Logo de Santa raqueta circulo coral con raqueta de tenis y leyenda santa raqueta"
+                                class="img-fluid"></a>
                     </div>
                 </div>
 
-                <a class="carousel-control-prev" href="#carouselWithCaptions" role="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </a>    
-                <a class="carousel-control-next" href="#carouselWithCaptions" role="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </a>
+                <div class="col-6 pt-3 d-flex justify-content-center">
+
+                    <h1 class="h1">Santa Raqueta Tenis</h1>
+
+                </div>
+
+
+                <div class="col-3 pt-3 d-flex justify-content-start">
+                    <ul class="redesSocialesIconos">
+                        <!--link a correo electrónico -->
+                        <li class="redessociales">
+                            <a href="mailto:santaraquetenis@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+
+                            <!--linkea a whatsapp propio que aun no existe-->
+                        <li class="redessociales">
+                            <a href="https://web.whatsapp.com/"><i class="bi bi-facebook"></i></a>
+                        </li>
+
+                        <!--link a instagram que aun no existe-->
+                        <li class="redessociales">
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                        </li>
+
+                        <li class="redessociales">
+                            <a href="https://www.instagram.com/"><i class="bi bi-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
 
 
-<!--presentacion de la escuela Santa Raqueta-->
 
-<section class="container-fluid">
-    <div class="sectionPresentation">
-       
-        <h3>Sobre Nosotros</h3>
-        
-        <p class="parrafo1"><b>F</b>undamos Santa Raqueta una familia de profesores, dos padres y dos hijos, con el objetivo de que todas las personas que quisieran vivir el tenis en un clima cálido, divertido y de mejora constante, encontraran dónde hacerlo.</p>
-        <p><b>D</b>esde su inaguración en 2019 a la fecha, Santa Raqueta ha crecido y hoy día convoca a más de 50 alumnos y 8 profesores. En sus dos sedes, Pasco y Sagrado Corazón, se dictan clases para todas las edades y todos los niveles, en forma grupal o individual. </p><p3>Tu escuela de tenis en CABA te espera para seguir agrandando nuestra familia.</p3>
-    </div>
-</section>  
-
-<!--fin seccion de presentacion-->
-
-<!-- informacion de clases individuales grupales o escuelita. cards con link a horarios y reserva de clases-->   
-
-<section class="container-fluid">
-    <div id="sectionClases">
-
-                   
-            <h3>Nuestras clases</h3>
-        
-
-        <!--info sobre clases grupales-->
-        
-            <h4>Clases Grupales</h4>
-        
-    
-        <!--card con info sobre clases grupales-->
+        <!--navbar-->
 
         <div class="container-fluid">
-            <div class="card">
-                <div class="row ">
-                    <div class="col order-2">
-                        <img src="images/clasesgrupales.jpg" class="card-img-top" alt="Mujer en primer plano y hombre en fondo jugando al tenis encancha de tenis de polvo de ladrillo.">
-                    </div>  
-                
-                     <div class="col order-1 ">
-                            <div class="card-body">
-                                <p class="card-text">Nuestras clases grupales son ideales para aquellos que quieren aprender, pero tambien socializar y crear un camino de aprendizaje junto a otros. Las clases grupales se organizan por nivel.Ingresa al link para ver horarios disponibles</p>
+            <nav class="navbar d-flex justify-content-center align-content-center">
+                <ul class="menuprincipal">
+                    <li class="itemmenu"><a href="index.html">Inicio</a></li>
+                    <li class="itemmenu"><a href="#sectionClases">Clases</a></li>
+                    <li class="itemmenu"><a href="#sectionSedes">Sedes</a></li>
+                    <li class="itemmenu"><a href="#sectionFormulario">Contacto</a></li>
+                    <li class="buttonlogin"><a href="loginForm.html"><button type="submit"
+                                class="css-button-fully-rounded--black" data-bs-toggle="modalInscripcion"
+                                data-bs-target="#modalInscripcion"> login</button></a></li>
 
-                        <!-- Button trigger modal clases grupales-->
-                                <button type="button" class="btn btn-secoondary btn-block border" data-bs-toggle="modal" data-bs-target="#exampleModal"><h6>Agendá tu clase</h6>
-                                </button>
-  
-                        <!-- Modal clases grupales-->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h6 class="modal-title" id="exampleModalLabel">Horarios de Clases Grupales</h6>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                                </button>
-                                            </div>
-                                        
-                                            <div class="modal-body">
-                                                <p>timetable, clases segun nivel y edad. opcion de elegir y agendar clase online</p>
-                                            </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--fin de header-->
 
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                                <button type="button" class="btn btn-primary"><h6>Agendá tu clase</h6></button>
+
+    <!--cuerpo principal de la pagina con info de clases, sedes, horarios, inscripcion-->
+
+    <main>
+
+        <!--carousel de imagenes tapices de raquetas-->
+        <section class="container-fluid">
+            <div class="carouselConLeyenda">
+                <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselWithCaptions" data-bs-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/carousel2.jpg" class="d-block w-100"
+                                alt="tapiz de dibujo de raquetas de tenis en colores vintage ">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <div class="leyendasDeCarousel animate__animated animate__bounceInLeft">
+                                    <h2>Tu escuela de tenis en CABA</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/carousel3.jpg" class="d-block w-100"
+                                alt="tapiz de raquetas grises con pelotas verdes dispuestas en filas y alineadas en vertical ">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <div class="leyendasDeCarousel animate__animated animate__bounceInLeft">
+                                    <h2>Agendá tu clase online</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="images/carousel.jpg" class="d-block w-100"
+                                alt="tapiz de raquetas de tenis grises y pelotas de tenis verdes dispuestas en filas ">
+                            <div class="carousel-caption d-none d-sm-block">
+                                <div class="leyendasDeCarousel animate__animated animate__bounceInLeft">
+                                    <h2>Todas las edades, todos los niveles</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#carouselWithCaptions" role="button"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselWithCaptions" role="button"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--presentacion de la escuela Santa Raqueta-->
+
+        <section class="container-fluid">
+            <div class="sectionPresentation">
+
+                <h3>Sobre Nosotros</h3>
+
+                <p class="parrafo1"><b>F</b>undamos Santa Raqueta una familia de profesores, dos padres y dos hijos, con
+                    el objetivo de que todas las personas que quisieran vivir el tenis en un clima cálido, divertido y
+                    de mejora constante, encontraran dónde hacerlo.</p>
+                <p><b>D</b>esde su inaguración en 2019 a la fecha, Santa Raqueta ha crecido y hoy día convoca a más de
+                    50 alumnos y 8 profesores. En sus dos sedes, Pasco y Sagrado Corazón, se dictan clases para todas
+                    las edades y todos los niveles, en forma grupal o individual. </p>
+                <p3>Tu escuela de tenis en CABA te espera para seguir agrandando nuestra familia.</p3>
+            </div>
+        </section>
+
+        <!--fin seccion de presentacion-->
+
+        <!-- informacion de clases individuales grupales o escuelita. cards con link a horarios y reserva de clases-->
+
+        <section class="container-fluid">
+            <div id="sectionClases">
+
+
+                <h3>Nuestras clases</h3>
+
+
+                <!--info sobre clases grupales-->
+
+                <h4>Clases Grupales</h4>
+
+
+                <!--card con info sobre clases grupales-->
+
+                <div class="container-fluid">
+                    <div class="card">
+                        <div class="row ">
+                            <div class="col order-2">
+                                <img src="images/clasesgrupales.jpg" class="card-img-top"
+                                    alt="Mujer en primer plano y hombre en fondo jugando al tenis encancha de tenis de polvo de ladrillo.">
+                            </div>
+
+                            <div class="col order-1 ">
+                                <div class="card-body">
+                                    <p class="card-text">Nuestras clases grupales son ideales para aquellos que quieren
+                                        aprender, pero tambien socializar y crear un camino de aprendizaje junto a
+                                        otros. Las clases grupales se organizan por nivel.Ingresa al link para ver
+                                        horarios disponibles</p>
+
+                                    <!-- Button trigger modal clases grupales-->
+                                    <button type="button" class="btn btn-secoondary btn-block border"
+                                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                        <h6>Agendá tu clase</h6>
+                                    </button>
+
+                                    <!-- Modal clases grupales-->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h6 class="modal-title" id="exampleModalLabel">Horarios de Clases
+                                                        Grupales</h6>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close">
+                                                    </button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <p>timetable, clases segun nivel y edad. opcion de elegir y agendar
+                                                        clase online</p>
+                                                </div>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Cerrar</button>
+                                                    <button type="button" class="btn btn-primary">
+                                                        <h6>Agendá tu clase</h6>
+                                                    </button>
+                                                </div>
                                             </div>
-                                        </div>  
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-    
-        <!--info sobre clases Individuales-->
-        
-            <h4>Clases Individuales</h4>
-        
 
-        <!--card con info sobre clases individuales-->
-        
-        <div class="container-fluid">
-            <div class="card">
-                <div class="row">
-                    <div class="col order-1">
-                        <img src="images/imagenescuelahombres.jpg" class="card-img-top" alt="Grupo de mujeres en cancha de tenis de polvo de ladrillo mirando a la camara">
-                    </div>
-                
-                    <div class="col order-2 ">
-                        <div class="card-body">
-                            <p class="card-text">Ideales para quienes buscan un trabajo personalizado, atendiendo tecnica, entrenamiento fisico, alta competicion y sarasaates eligendi animi incidunt numquam quos nesciunt quibusdam sint quam delectus dicta reprehenderit quas hic, quis fuga esse.</p>
+                <!--info sobre clases Individuales-->
 
-                    <!-- Button trigger modal clases individuales-->
-                            <button type="button" class="btn btn-info btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal"><h6>Agendá tu clase</h6>
-                            </button>
-                        
-                    <!-- Modal clases individuales-->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h6 class="modal-title" id="exampleModalLabel">Horarios de Clases individuales</h6>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                            </button>
-                                        </div>
-                                        
-                                        <div class="modal-body">
-                                            <p>timetable, clases segun nivel y edad. opcion de elegir y agendar clase online</p>
-                                        </div>
+                <h4>Clases Individuales</h4>
 
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary"><h6>Agendá tu clase</h6></button>
-                                        </div>
-                                    </div>  
-                                </div>
+
+                <!--card con info sobre clases individuales-->
+
+                <div class="container-fluid">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col order-1">
+                                <img src="images/imagenescuelahombres.jpg" class="card-img-top"
+                                    alt="Grupo de mujeres en cancha de tenis de polvo de ladrillo mirando a la camara">
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
-   
-        <!--info sobre Escuela de niños-->
-        
-            <h4>Escuelita</h4>
-        
-         <!--card con info sobre clases para niños-->
 
-        <div class="container-fluid">
-            <div class="card">
-                <div class="row">
-                    <div class="col order-2">
-                        <img src="images/escuelitagrandes.jpg" class="card-img-top" alt="Grupo de niños tomando clase de tenis mujeres en cancha de tenis de polvo de ladrillo">
-                    </div>
-                
-                    <div class="col order-1 ">
-                        <div class="card-body">
-                            <p class="card-text">Recibimos a niños de entre 4 y 13 años, sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus velit natus voluptates eligendi animi incidunt numquam quos nesciunt quibusdam sint quam delectus dicta reprehenderit quas hic, quis fuga esse.</p>
+                            <div class="col order-2 ">
+                                <div class="card-body">
+                                    <p class="card-text">Ideales para quienes buscan un trabajo personalizado,
+                                        atendiendo tecnica, entrenamiento fisico, alta competicion y sarasaates eligendi
+                                        animi incidunt numquam quos nesciunt quibusdam sint quam delectus dicta
+                                        reprehenderit quas hic, quis fuga esse.</p>
 
-                            <!-- Button trigger modal clasespara niños-->
-                            <button type="button" class="btn btn-info btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal"><h6>Agendá tu clase</h6>
-                            </button>
-  
-                            <!-- Modal clases para niños-->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h6 class="modal-title" id="exampleModalLabel">Horarios de Escuelita</h6>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                            </button>
-                                        </div>
-                                        
-                                        <div class="modal-body">
-                                            <p>timetable, clases segun nivel y edad. opcion de elegir y agendar clase online</p>
-                                        </div>
+                                    <!-- Button trigger modal clases individuales-->
+                                    <button type="button" class="btn btn-info btn-block" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <h6>Agendá tu clase</h6>
+                                    </button>
 
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary"><h6>Agendá tu clase</h6></button>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
- 
-    </div>
-</section>  
+                                    <!-- Modal clases individuales-->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h6 class="modal-title" id="exampleModalLabel">Horarios de Clases
+                                                        individuales</h6>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close">
+                                                    </button>
+                                                </div>
 
- <!-- Fin seccion clases-->      
+                                                <div class="modal-body">
+                                                    <p>timetable, clases segun nivel y edad. opcion de elegir y agendar
+                                                        clase online</p>
+                                                </div>
 
- 
-<!-- mapas y sedes--> 
-
-<section class="container-fluid">
-    <div id="sectionSedes">
-           
-        <h3>Nuestras sedes</h3>
-  
-        <!--info sobre Sede Pasco-->
-        <div class="container-fluid">
-            <div class="clasesTitulos">
-                <h4>Sede Pasco</h4>
-             </div>
-
-        <!--card con mapa y descripcion sede pasco-->
-
-            <div class="card">                        
-                <div class="row">
-                    <div class="col order-2">
-                        <div class="container-fluid">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1976159432816!2d-58.39901298591347!3d-34.62444608045416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb1f0700810d%3A0x486ae7ce5de2402f!2sPasco%20Tenis!5e0!3m2!1sen!2sar!4v1647212820435!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"class="mapaSedes">
-                                </iframe></div>
-                    </div>
-                
-                    <div class="col order-1 ">
-                        <div class="card-body">
-                            <p class="card-text"><h5>Cochabamba 2258, CABA</h5>Esta Sede cuenta con un total de 10 canchas de polvo de ladrillo, 6 al airelibre y 4 techadas. De ellas, 4 están a disposición de Santa Raqueta, lo cual nos permite contar con amplios horarios para ofrecer. </p>
-
-                    <!-- Button trigger modal sede pasco-->
-                            <button type="button" class="btn btn-info btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal"><h6>Conocé Pasco</h6>
-                            </button>
-  
-                    <!-- Modal sede pasco-->
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h6 class="modal-title" id="exampleModalLabel">descripcion de pasco y link</h6>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                            </button>
-                                        </div>
-                                        
-                                        <div class="modal-body">
-                                            <p>la sede pasco...</p>
-                                        </div>
-
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary"><h6>...e</h6></button>
-                                        </div>
-                                    </div>  
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
- 
-        <!--info sobre Sede Sdo Corazón-->
-        <div class="container-fluid">       
-           
-                <h4>Sede Sagrado Corazón</h4>
-        
-
-        <!--card con mapa y descripcion sede Sdo Corazón-->
-
-            <div class="card">                        
-                <div class="row">
-                    <div class="col order-1">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.190589507106!2d-58.3928565859125!3d-34.6498893804475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb5cabf34839%3A0x144ca2342265d78a!2sAteneo%20Parroquial%20Sagrado%20Corazon!5e0!3m2!1sen!2sar!4v1647213403099!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" class="mapaSedes"></iframe>
-                            </div>
-                
-                    <div class="col order-2 ">
-                        <div class="card-body">
-                            <p class="card-text"><h5>California 3060, CABA</h5>Esta Sede cuenta con un total de 3 canchas al aire libre de polvo de ladrillos, 2 de ellas a disposición de Santa Raqueta los fines de semana. Luegas ideal para que toda la familia disfrute.cuenta con sarasa </p>
-
-                <!-- Button trigger modal Sdo Corazón-->
-                            <button type="button" class="btn btn-info btn-block" data-bs-toggle="modal" data-bs-target="#exampleModal"><h6>Conocé la sede Sagrado Corazón</h6>
-                            </button>
-  
-                <!-- Modal Sdo Corazóns-->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h6 class="modal-title" id="exampleModalLabel">descripcion de scorazon y link</h6>
-                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                                                </button>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">
+                                                        <h6>Agendá tu clase</h6>
+                                                    </button>
+                                                </div>
                                             </div>
-                                        <div class="modal-body">
-                                            <p>la sede sdo corazon...</p>
                                         </div>
-
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary"><h6>...e</h6></button>
-                                        </div>
-                                    </div>  
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-           
-    
-    </div>
-</section>
 
-<!--Fin Seccion de sedes y mapas-->
+                <!--info sobre Escuela de niños-->
 
-<!--Seccion de formulario de contacto-->    
+                <h4>Escuelita</h4>
 
-<section class="container-fluid">
-    <div id="sectionFormulario">
-        <h3>Contactanos</h3>
+                <!--card con info sobre clases para niños-->
 
-        <!--gridd bootstrap para formulario de contacto-->
-        <div class="d-grid gap-3">
-                
-            <div class="p-2 bg-light border"><input type="name and surname" class="form-control" id="exampleFormControlInput1" placeholder= "Nombre y Apellido" required>
-            </div>
+                <div class="container-fluid">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col order-2">
+                                <img src="images/escuelitagrandes.jpg" class="card-img-top"
+                                    alt="Grupo de niños tomando clase de tenis mujeres en cancha de tenis de polvo de ladrillo">
+                            </div>
 
-            <div class="p-2 bg-light border"><input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Dirección de email" required>
-            </div>
+                            <div class="col order-1 ">
+                                <div class="card-body">
+                                    <p class="card-text">Recibimos a niños de entre 4 y 13 años,
+                                        sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3 Lorem
+                                        ipsum dolor sit amet consectetur adipisicing elit. Expedita possimus velit natus
+                                        voluptates eligendi animi incidunt numquam quos nesciunt quibusdam sint quam
+                                        delectus dicta reprehenderit quas hic, quis fuga esse.</p>
 
-            
-                <div class="p-2 bg-light border"><textarea class="form-control" placeholder="Dejanos tu comentario" id="floatingTextarea" style="height: 100px"></textarea>
-                    <label for="floatingTextarea"></label></div>
-                     
-                <div class="row btn-block p-3">
-                    <button type="submit" class="css-button-gradient--4">Enviar</button>
+                                    <!-- Button trigger modal clasespara niños-->
+                                    <button type="button" class="btn btn-info btn-block" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <h6>Agendá tu clase</h6>
+                                    </button>
+
+                                    <!-- Modal clases para niños-->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h6 class="modal-title" id="exampleModalLabel">Horarios de Escuelita
+                                                    </h6>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close">
+                                                    </button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <p>timetable, clases segun nivel y edad. opcion de elegir y agendar
+                                                        clase online</p>
+                                                </div>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">
+                                                        <h6>Agendá tu clase</h6>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
-        </div>
-    
-</section>
+        </section>
 
-<!-- boton de inscripcion fijo-->
-<!--Animación-->
-<section class="animacionWap">
-     
-    <div class="WapAnimada">
-        <a href="registerForm.html"><img src="images/pelota-de-tenis.gif" alt="logo de whatsapp fondo verde" class="WapAnimadaImagen animate__animated animate__bounceInRight">
-    <h5>¡Inscribite aca!</h5></a>
-</div> 
-
-</section>
+        <!-- Fin seccion clases-->
 
 
-</main>
-  
-<!-- fin cuerpo ppal-->
+        <!-- mapas y sedes-->
 
-<!--footer-->
-<footer class="container-fluid">
-    <div class="FooterStyle">  
-        <div class="row">
+        <section class="container-fluid">
+            <div id="sectionSedes">
 
-            <!-- link a correo electrónico footer-->
-            <div class="col-4 p-2 order-3 d-flex justify-content-center align-self-center">        
-                <div class="emailLinkFooter">  
-                                       
-                    <div class="linkEmail">
-                        <h6>Santa Raqueta Tenis</h6>
-                        <a href="mailto:santaraquetenis@gmail.com">santaraqueta@gmail.com</a>
+                <h3>Nuestras sedes</h3>
+
+                <!--info sobre Sede Pasco-->
+                <div class="container-fluid">
+                    <div class="clasesTitulos">
+                        <h4>Sede Pasco</h4>
+                    </div>
+
+                    <!--card con mapa y descripcion sede pasco-->
+
+                    <div class="card">
+                        <div class="row">
+                            <div class="col order-2">
+                                <div class="container-fluid">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1976159432816!2d-58.39901298591347!3d-34.62444608045416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb1f0700810d%3A0x486ae7ce5de2402f!2sPasco%20Tenis!5e0!3m2!1sen!2sar!4v1647212820435!5m2!1sen!2sar"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        class="mapaSedes">
+                                    </iframe></div>
+                            </div>
+
+                            <div class="col order-1 ">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <h5>Cochabamba 2258, CABA</h5>Esta Sede cuenta con un total de 10 canchas de
+                                        polvo de ladrillo, 6 al airelibre y 4 techadas. De ellas, 4 están a disposición
+                                        de Santa Raqueta, lo cual nos permite contar con amplios horarios para ofrecer.
+                                    </p>
+
+                                    <!-- Button trigger modal sede pasco-->
+                                    <button type="button" class="btn btn-info btn-block" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <h6>Conocé Pasco</h6>
+                                    </button>
+
+                                    <!-- Modal sede pasco-->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h6 class="modal-title" id="exampleModalLabel">descripcion de pasco
+                                                        y link</h6>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close">
+                                                    </button>
+                                                </div>
+
+                                                <div class="modal-body">
+                                                    <p>la sede pasco...</p>
+                                                </div>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">
+                                                        <h6>...e</h6>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--info sobre Sede Sdo Corazón-->
+                <div class="container-fluid">
+
+                    <h4>Sede Sagrado Corazón</h4>
+
+
+                    <!--card con mapa y descripcion sede Sdo Corazón-->
+
+                    <div class="card">
+                        <div class="row">
+                            <div class="col order-1">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.190589507106!2d-58.3928565859125!3d-34.6498893804475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb5cabf34839%3A0x144ca2342265d78a!2sAteneo%20Parroquial%20Sagrado%20Corazon!5e0!3m2!1sen!2sar!4v1647213403099!5m2!1sen!2sar"
+                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                    class="mapaSedes"></iframe>
+                            </div>
+
+                            <div class="col order-2 ">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <h5>California 3060, CABA</h5>Esta Sede cuenta con un total de 3 canchas al aire
+                                        libre de polvo de ladrillos, 2 de ellas a disposición de Santa Raqueta los fines
+                                        de semana. Luegas ideal para que toda la familia disfrute.cuenta con sarasa
+                                    </p>
+
+                                    <!-- Button trigger modal Sdo Corazón-->
+                                    <button type="button" class="btn btn-info btn-block" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <h6>Conocé la sede Sagrado Corazón</h6>
+                                    </button>
+
+                                    <!-- Modal Sdo Corazóns-->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h6 class="modal-title" id="exampleModalLabel">descripcion de
+                                                        scorazon y link</h6>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close">
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p>la sede sdo corazon...</p>
+                                                </div>
+
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                    <button type="button" class="btn btn-primary">
+                                                        <h6>...e</h6>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <!--Fin Seccion de sedes y mapas-->
+
+        <!--Seccion de formulario de contacto-->
+
+        <section class="container-fluid">
+            <div id="sectionFormulario">
+                <h3>Contactanos</h3>
+
+                <!--gridd bootstrap para formulario de contacto-->
+                <div class="d-grid gap-3">
+
+                    <div class="p-2 bg-light border"><input type="name and surname" class="form-control"
+                            id="exampleFormControlInput1" placeholder="Nombre y Apellido" required>
+                    </div>
+
+                    <div class="p-2 bg-light border"><input type="email" class="form-control"
+                            id="exampleFormControlInput1" placeholder="Dirección de email" required>
+                    </div>
+
+
+                    <div class="p-2 bg-light border"><textarea class="form-control" placeholder="Dejanos tu comentario"
+                            id="floatingTextarea" style="height: 100px"></textarea>
+                        <label for="floatingTextarea"></label></div>
+
+                    <div class="row btn-block p-3">
+                        <button type="submit" class="css-button-gradient--4">Enviar</button>
                     </div>
                 </div>
             </div>
-               
-                
-            <div class="col-4 order-2 p-2 d-flex justify-content-center align-self-center">
-                <!--Logo de Santa Raqueta-->
-                <div class="logo">
-                    <a href="index.html"><img src="images/logo_transparent.png" alt="Logo de Santa raqueta circulo coral con raqueta de tenis y leyenda santa raqueta" class="img-fluid float-left"></a>
-                </div>                
-            </div> 
-                      
-            <div class="col-4 p-3 d-flex justify-content-center align-self-center">
-                <div class= "container-fluid">
-                    <ul class="redesSocialesIconosFooter">
-                   
-                                
-                    <!--linkea a whatsapp propio que aun no existe-->
-                        <li class="redessocialesFooter">
-                            <a href="https://web.whatsapp.com/"whatsapp><i class="bi bi-whatsapp"></i></a>
-                        </li>
-                                    
-                    <!--link a instagram que aun no existe-->                            
-                        <li class="redessocialesFooter">
-                            <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>  
-                        </li>
-        
-                        <li class="redessocialesFooter">
-                            <a href="https://www.instagram.com/"><i class="bi bi-facebook"></i></a>  
-                        </li>
-                    </ul>    
+
+        </section>
+
+        <!-- boton de inscripcion fijo-->
+        <!--Animación-->
+        <section class="animacionWap">
+
+            <div class="WapAnimada">
+                <a href="registerForm.html"><img src="images/pelota-de-tenis.gif" alt="logo de whatsapp fondo verde"
+                        class="WapAnimadaImagen animate__animated animate__bounceInRight">
+                    <h5>¡Inscribite aca!</h5>
+                </a>
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <!-- fin cuerpo ppal-->
+
+    <!--footer-->
+    <footer class="container-fluid">
+        <div class="FooterStyle">
+            <div class="row">
+
+                <!-- link a correo electrónico footer-->
+                <div class="col-4 p-2 order-3 d-flex justify-content-center align-self-center">
+                    <div class="emailLinkFooter">
+
+                        <div class="linkEmail">
+                            <h6>Santa Raqueta Tenis</h6>
+                            <a href="mailto:santaraquetenis@gmail.com">santaraqueta@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4 order-2 p-2 d-flex justify-content-center align-self-center">
+                    <!--Logo de Santa Raqueta-->
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo_transparent.png"
+                                alt="Logo de Santa raqueta circulo coral con raqueta de tenis y leyenda santa raqueta"
+                                class="img-fluid float-left"></a>
+                    </div>
+                </div>
+
+                <div class="col-4 p-3 d-flex justify-content-center align-self-center">
+                    <div class="container-fluid">
+                        <ul class="redesSocialesIconosFooter">
+
+
+                            <!--linkea a whatsapp propio que aun no existe-->
+                            <li class="redessocialesFooter">
+                                <a href="https://web.whatsapp.com/" whatsapp><i class="bi bi-whatsapp"></i></a>
+                            </li>
+
+                            <!--link a instagram que aun no existe-->
+                            <li class="redessocialesFooter">
+                                <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+                            </li>
+
+                            <li class="redessocialesFooter">
+                                <a href="https://www.instagram.com/"><i class="bi bi-facebook"></i></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>  
-   
-</footer>
-<!-- fin footer-->
-      
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+    </footer>
+    <!-- fin footer-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
