@@ -1,101 +1,124 @@
 body {
-margin: 0 6%;
-background-color: white;
+    margin: 0 6%;
+    background-color: white;
+    
 }
 
-.h1{
-    @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.7rem, bold,none, white);
+.h1 {
+    @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.7rem, bold, none, white);
 }
 
 h2 {
-    @include tipography-FamilySizeWeightStyleColor ('Square Peg', 2.3rem, bold, none,black);
+    @include tipography-FamilySizeWeightStyleColor ('Square Peg', 2.3rem, bold, none, black);
 }
 
 h3 {
-    @include tipography-FamilySizeWeightStyleColor ("Nunito", 1.5rem, bold, italic,black);
-    background-color: rgba( 249, 244, 232, 0.45 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 16px );
-    -webkit-backdrop-filter: blur( 13px );
-    border-radius: 10px;         
+    @include tipography-FamilySizeWeightStyleColor ("Nunito", 1.5rem, bold, italic, black);
+    background-color: rgba(249, 244, 232, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(13px);
+    border-radius: 10px;
     margin: 0 10% 4% 50%;
-    text-align: center; 
+    text-align: center;
+
     &:hover {
         transform: scale(90%)
     }
 }
 
 h4 {
-    @include tipography-FamilySizeWeightStyleColor ('Nunito', 1.2rem, bold, none,black);
+    @include tipography-FamilySizeWeightStyleColor ('Nunito', 1.2rem, bold, none, black);
     margin: 4% 2% 4% 2%;
-    background-color: rgb(117, 156, 136); 
+    padding-left: 2%;
+    background-color: rgb(117, 156, 136);
 }
 
 h5 {
-    @include tipography-FamilySizeWeightStyleColor (Nunito, 1rem, bold, cursive,black);
+    @include tipography-FamilySizeWeightStyleColor (Nunito, 1rem, bold, cursive, black);
 }
 
 h6 {
-    @include tipography-FamilySizeWeightStyleColor ('dancing script', 1rem, bold, cursive,gray);
+    @include tipography-FamilySizeWeightStyleColor ('dancing script', 1rem, bold, cursive, gray);
 }
 
 /* Carousel de imagenes con leyenda*/
 
 .carouselConLeyenda {
 
-  padding:0 1%;
+    padding: 0 1%;
 
-        .leyendasDeCarousel {
-            width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 10px 32px 0 rgba(13, 25, 194, 0.37);
-        }
+    .leyendasDeCarousel {
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 10px 32px 0 rgba(13, 25, 194, 0.37);
     }
+}
+
 
 /* presentacion*/
 
 .sectionPresentation {
-    @include paddingbordermarginRaiusBgColor (7% 1%,1px solid rgba( 255, 255, 255, 0.18 ),0 1%,0 0 25% 0,rgba( 249, 244, 232, 0.45 ));
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 13px );
-    -webkit-backdrop-filter: blur( 13px );
-    color: rgb(9, 7, 7); 
-        p { 
-            @include tipography-FamilySizeWeightStyleColor ('Assistant', 1rem, bold, none, rgb(21, 20, 20));  
-            padding: 3%;
-            margin: 0 5%;
-            text-align: justify;
+    @include paddingbordermarginRaiusBgColor (7% 1%, 1px solid rgba(255, 255, 255, 0.18), 0 1%, 0 0 25% 0, rgba(249, 244, 232, 0.45));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    color: rgb(9, 7, 7);
+
+    p {
+        @include tipography-FamilySizeWeightStyleColor ('Assistant', 1rem, bold, none, rgb(21, 20, 20));
+        padding: 1% 4%;
+        margin: 0 5%;
+        text-align: justify;
+        line-height: 2rem;
     }
-        p3 {
-            @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.7rem, bold, none, black);
-            padding-left: 5%;
+
+    .p3 {
+        @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.3rem, bold, none, black);
+        padding-left: 9%;
+        line-height: 4rem;
+        
     }
 }
 
 /* informacion sobre las clases individuales, grupales e infantiless*/
 #sectionClases {
-    @include paddingbordermarginRaiusBgColor (7% 1%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1% 0 1%, 0,rgba( 249, 244, 232, 0.45 ));
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-   
+    @include paddingbordermarginRaiusBgColor (17% 1%, 1px solid rgba(255, 255, 255, 0.18), 5% 1% 0 1%, 0, rgba(249, 244, 232, 0.45));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    p {
+        text-align: justify;
+    }
+    .p3 {
+        @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.3rem, bold, none, black);
+               
+    }
+ 
 }
-   
+
 
 
 /* direccion y mapas de las sedes*/
 #sectionSedes {
-    @include paddingbordermarginRaiusBgColor (7% 1%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1% 0 1%, 0,rgba( 249, 244, 232, 0.45 ));
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    
+    @include paddingbordermarginRaiusBgColor (17% 1%, 1px solid rgba(255, 255, 255, 0.18), 5% 1% 0 1%, 0, rgba(249, 244, 232, 0.45));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    .mapaFormato {
+        width: 50%;
+        height: 50%;
+       
+    }
   
-}
-     
 
- /* formulario de contacto*/     
+}
+
+
+/* formulario de contacto*/
 #sectionFormulario {
-    @include paddingbordermarginRaiusBgColor (7% 15%,1px solid rgba( 255, 255, 255, 0.18 ),5% 1% 0 1%, 0,rgba( 249, 244, 232, 0.45 ));
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    
-    
-    
+    @include paddingbordermarginRaiusBgColor (17% 15%, 1px solid rgba(255, 255, 255, 0.18), 5% 1% 0 1%, 0, rgba(249, 244, 232, 0.45));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+
+
     .css-button-gradient--4 {
         min-width: 130px;
         height: 40px;
@@ -112,67 +135,76 @@ h6 {
         background-size: 100% auto;
         background-image: linear-gradient(315deg, #43cea2 0%, #185a9d 75%);
     }
-        .css-button-gradient--4:hover {
+
+    .css-button-gradient--4:hover {
         background-position: right center;
     }
-        .css-button-gradient--4:active {
+
+    .css-button-gradient--4:active {
         top: 4px;
     }
-                    
+
 }
-            
- 
+
+
 /* animacion para comienzo-animacion para texto inscribite*/
 
 
 .WapAnimada {
     margin-top: 4%;
     margin-left: 87%;
-    bottom:15%;
+    bottom: 7%;
     right: 0.1%;
     position: fixed;
     text-align: center;
     text-decoration: none;
-            &:hover {
-                transform: scale(120%);
-                color:#0c0d0d
-            }
-    
+
+    &:hover {
+        transform: scale(120%);
+        color: #0c0d0d
+    }
+
     img {
         width: 20%;
         height: auto;
-    border-radius: 50%; }    
-   
+        border-radius: 50%;
+    }
+
     animation: pelotitaAnimada 2s
 }
 
 
 @keyframes pelotitaAnimada {
-    20% {        
+    20% {
         transform: translateX(-100px) scale(2);
     }
-    30% {        
+
+    30% {
         transform: translateY(-1000px);
     }
 
     60% {
-        transform:translateY(-12px)
+        transform: translateY(-12px)
     }
+
     65% {
-        transform:translateY(12px)
+        transform: translateY(12px)
     }
+
     70% {
-        transform:translateY(-12px)
+        transform: translateY(-12px)
     }
-   
+
     75% {
-        transform:translateY(-12px)
+        transform: translateY(-12px)
     }
+
     80% {
-        transform:translateY(12px)
+        transform: translateY(12px)
     }
+
     85% {
-        transform:translateY(-12px)
+        transform: translateY(-12px)
     }
 }
 
@@ -186,150 +218,182 @@ h6 {
     margin-left: 10%;
     padding-top: 8%;
     align-items: flex-start;
- } 
- .logoSedes img {
-     animation: raquetaPega 3s
-    
- }
- 
+}
+
+.logoSedes img {
+    animation: raquetaPega 3s
+}
+
 @keyframes raquetaPega {
-    10% {        
+    10% {
         transform: rotate(-18deg) scale(2);
     }
-    70% {        
-        transform: rotate(45deg) 
+
+    70% {
+        transform: rotate(45deg)
     }
 }
+
 .logoSedes img {
     display: flex;
     border-radius: 5%;
-    max-width: 18%;   
-    box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
-    -webkit-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
-    -moz-box-shadow: 46px 21px 121px -5px rgba(0,0,0,0.68);
+    max-width: 18%;
+    box-shadow: 46px 21px 121px -5px rgba(0, 0, 0, 0.68);
+    -webkit-box-shadow: 46px 21px 121px -5px rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: 46px 21px 121px -5px rgba(0, 0, 0, 0.68);
 }
 
 /* formlogin*/
 
 .formlogin {
-    @include paddingbordermarginRaiusBgColor (2% 25%,1px solid rgba( 255, 255, 255, 0.18 ),0% 1%, 0,rgba( 249, 244, 232, 0.45 ));
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    @include paddingbordermarginRaiusBgColor (2% 25%, 1px solid rgba(255, 255, 255, 0.18), 0% 1%, 0, rgba(249, 244, 232, 0.45));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     align-content: center;
-            h2 {
-                text-align: center;
-                padding-top: 2%;
+
+    h2 {
+        text-align: center;
+        padding-top: 2%;
 
     }
 
 }
 
 .form-background {
-    @include paddingbordermarginRaiusBgColor (2% 15%,1px solid rgba( 255, 255, 255, 0.18 ),0% 2%, 0,rgba(249, 244, 232, 0.923));
+    @include paddingbordermarginRaiusBgColor (2% 15%, 1px solid rgba(255, 255, 255, 0.18), 0% 2%, 0, rgba(249, 244, 232, 0.923));
     box-shadow: 0 8px 32px 0 rgba(47, 53, 137, 0.37);
+
     &:hover {
         background-color: rgb(184, 209, 249);
-        transition: all 1s;}
-           
-            h2 {
-                padding-left: 10%;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 1.3rem;
-                &:hover {
-                    transform: scale(105%);
-                    transition: all 1s;}
-                }
-                      
-            
-        
-    
+        transition: all 1s;
+    }
 
-            .form-register {
-                width: 90%;
-                background: rgb(52, 64, 89);
-                padding: 3%;
-                margin: auto;
-                margin-top: 3%;
-                border-radius: 1%;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                color: white;
-                box-shadow: 7% 10% rgb(26, 25, 25);
-    
-                        .controls {
-                            width: 100%;
-                            padding: 1%;
-                            background: rgb(166, 198, 249);
-                            padding: 1%;
-                            border-radius: 0.1%;
-                            margin-bottom: 3%;
-                            font-size: 1.2 rem;
-                            &:hover {
-                                background-color: rgb(224, 234, 249);
-                                transition: all 1s;}
-                         }
+    h2 {
+        padding-left: 10%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.3rem;
 
-                         
-                        
-                        a {
-                            color:white;
-                            text-decoration: none;
-                                &:hover {
-                                color: gray;
-                                text-decoration: underline;
-                                }
-                        }
+        &:hover {
+            transform: scale(105%);
+            transition: all 1s;
+        }
+    }
 
-                        .checkbox, p {
-                            margin: 4% 4%;
-                            
-                        }
-                        .botons {
-                            width: 50%;
-                            border: none;
-                            padding: 1%;
-                            color: #0c0d0d;
-                            margin: 5% 25%;
-                            font-size: 1.2rem;
-                            background:rgba(249, 244, 232, 0.923);
-                            border-radius: 2%;
-                            box-shadow: 2px 2px  #0c0d0d;
-                            border: gray solid 3px;
-                                    &:hover {
-                                        transition: all 1s;
-                                        background: #e1e6eb;
-                                        
-                                        font-weight: bolder;
-                                    }
-                        }
 
-                       
-                }
-               
+
+
+
+    .form-register {
+        width: 90%;
+        background: rgb(52, 64, 89);
+        padding: 3%;
+        margin: auto;
+        margin-top: 3%;
+        border-radius: 1%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        box-shadow: 7% 10% rgb(26, 25, 25);
+
+        .controls {
+            width: 100%;
+            padding: 1%;
+            background: rgb(166, 198, 249);
+            padding: 1%;
+            border-radius: 0.1%;
+            margin-bottom: 3%;
+            font-size: 1.2 rem;
+
+            &:hover {
+                background-color: rgb(224, 234, 249);
+                transition: all 1s;
+            }
+        }
+
+
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: gray;
+                text-decoration: underline;
+            }
+        }
+
+        .checkbox,
+        p {
+            margin: 4% 4%;
+
+        }
+
+        .botons {
+            width: 50%;
+            border: none;
+            padding: 1%;
+            color: #0c0d0d;
+            margin: 5% 25%;
+            font-size: 1.2rem;
+            background: rgba(249, 244, 232, 0.923);
+            border-radius: 2%;
+            box-shadow: 2px 2px #0c0d0d;
+            border: gray solid 3px;
+
+            &:hover {
+                transition: all 1s;
+                background: #e1e6eb;
+
+                font-weight: bolder;
+            }
+        }
+
+
+    }
+
 
 }
-            
+
 .return {
     text-align: right;
     padding: 5% 20%;
-   
-}  
+
+}
 
 .gridAlumni {
-    @include paddingbordermarginRaiusBgColor (0,1px solid rgba( 255, 255, 255, 0.18 ),0% 2%, 0,rgba(249, 244, 232, 0.923));
+    @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 0% 2%, 0, rgba(249, 244, 232, 0.923));
     box-shadow: 0 8px 32px 0 rgba(47, 53, 137, 0.37);
     display: grid;
-    grid-template-areas: 
-    "navbarAlumni mainAlumniHeader mainAlumniHeader sidebarAlumni"
-    "navbarAlumni mainAlumni mainAlumni sidebarAlumni"
-    "navbarAlumni comunidadAlumni comunidadAlumni sidebarAlumni";
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows:1fr;
-    gap: 1px;
-                         
-  }
-  
-  .navbarAlumni{ grid-area: navbarAlumni; background: blue; }
-  .mainAlumniHeader { grid-area: mainAlumniHeader; background: red; }
-  .mainAlumni { grid-area: mainAlumni; background: red; }
-  .sidebarAlumni { grid-area: sidebarAlumni;}
-  .comunidadAlumni { grid-area: comunidadAlumni; background: orange; }
+    grid-template-areas:
+        "navbarAlumni mainAlumniHeader mainAlumniHeader"
+        "navbarAlumni mainAlumni mainAlumni"
+        "navbarAlumni comunidadAlumni comunidadAlumni";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 1%px;
+
+}
+
+.navbarAlumni {
+    grid-area: navbarAlumni;
+    background: blue;
+}
+
+.mainAlumniHeader {
+    grid-area: mainAlumniHeader;
+    background: red;
+}
+
+.mainAlumni {
+    grid-area: mainAlumni;
+    background: red;
+}
+
+.sidebarAlumni {
+    grid-area: sidebarAlumni;
+}
+
+.comunidadAlumni {
+    grid-area: comunidadAlumni;
+    background: orange;
+}
+
 
