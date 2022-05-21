@@ -1,68 +1,72 @@
-
 .FooterStyle {
     margin: 0 1%;
-            box-shadow: 0 0 10px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 13px );
-            -webkit-backdrop-filter: blur( 13px );
-            padding-top: 3%;
+    box-shadow: 0 0 10px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    padding-top: 3%;
 
-        .emailLinkFooter {
+    .emailLinkFooter {
 
-            .linkEmail {
-                text-align: center;
-                a{
-                    color: gray;
+        .linkEmail {
+            text-align: center;
+
+            a {
+                color: gray;
+                text-decoration: none;
+                font-family: 'dancing script';
+                font-size: 1.4rem;
+
+                &:hover {
                     text-decoration: none;
-                    font-family: 'dancing script';
-                    font-size: 1.4rem;
+                    color: rgb(2, 2, 2);
+                    font-size: 1.2rem;
+                    font-weight: bolder;
 
-                        &:hover {
-                            text-decoration: none;
-                            color: rgb(2, 2, 2);
-                            font-size: 1.2rem;
-                            font-weight: bolder;
-                           
-                        }
-                    }
-                }
-
-        }
-
-    
-            .logo {
-            width: 30%;     
-            &:hover {
-                
-               
-                transition: all 1s;
-            }     
-        }   
-    
-            .redesSocialesIconosFooter {
-                  list-style: none;
-               .redessocialesFooter {
-                   padding: 0  0 1% 5%;            
-                            a  {                       
-                                color:gray;  
-                                &:hover {
-                                    text-decoration: none;
-                                    color: rgb(2, 2, 2);
-                                    font-size: 1.2rem;
-                                    font-weight: bolder;
-                                    transform: scale(2);
-                                    transition: all 1s;
-                            }
                 }
             }
         }
 
-        
+    }
+
+
+    .logo {
+        width: 30%;
+
+        &:hover {
+
+
+            transition: all 1s;
+        }
+    }
+
+    .redesSocialesIconosFooter {
+        list-style: none;
+
+        .redessocialesFooter {
+            padding: 0 0 1% 5%;
+
+            a {
+                color: gray;
+
+                &:hover {
+                    text-decoration: none;
+                    color: rgb(2, 2, 2);
+                    font-size: 1.2rem;
+                    font-weight: bolder;
+                    transform: scale(2);
+                    transition: all 1s;
+                }
+            }
+        }
+    }
+
+
     .derechosFooter {
-        @include paddingbordermarginRaiusBgColor (0 1%,1px solid rgba( 255, 255, 255, 0.18 ),0 ,0px,rgb(2, 2, 2) );
+        @include paddingbordermarginRaiusBgColor (0 1%, 1px solid rgba(255, 255, 255, 0.18), 0, 0px, rgb(2, 2, 2));
         box-shadow: 0 8px 32px 0 rgba(65, 65, 86, 0.208);
-        backdrop-filter: blur( 13px );
-        -webkit-backdrop-filter: blur( 13px );       
-             }
-     
+        backdrop-filter: blur(13px);
+        -webkit-backdrop-filter: blur(13px);
+    }
+
 
 }

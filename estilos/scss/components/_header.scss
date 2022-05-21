@@ -1,104 +1,112 @@
-
-
 /*header Santa Raqueta*/
 
-header{
+header {
     position: sticky;
     z-index: 10;
-    top: 0;   
-     
+    top: 0;
+
     /* leyenda apaisada top con h1*/
-        
+
     .leyendaSR {
-        
+
         margin: 0 1%;
         background-color: rgba(39, 60, 93);
-        backdrop-filter: blur( 13px );
-            h1{
-                &:hover {
+        backdrop-filter: blur(13px);
+
+        h1 {
+            &:hover {
                 color: rgb(184, 209, 249);
-                transition: all 1s ease;}}
-        
-            .logo {
-                             
-                width: 25%;                
+                transition: all 1s ease;
+            }
+        }
+
+        .logo {
+
+            width: 25%;
+
+            &:hover {
+                transform: scale(120%);
+                transition: all 1s;
+            }
+
+        }
+
+        .redesSocialesIconos {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+
+            .redessociales {
+                padding: 10%;
+                font-size: 1rem;
+
+
+                a {
+                    color: rgb(222, 90, 38);
+
                     &:hover {
-                    transform: scale(120%);
-                    transition: all 1s;
-                }    
-                 
-            }   
-    
-            .redesSocialesIconos {
-                display: flex;               
-                flex-direction: row;
-                list-style: none;
-                           
-                .redessociales {
-                    padding: 10%;
-                    font-size: 1rem;
-                   
-                            
-                        a  {                       
-                                color: rgb(222, 90, 38);  
-                                &:hover {
-                                    text-decoration: none;
-                                    color: rgb(21, 8, 2);
-                                    font-weight: bolder;
-                                }
-                        }
-                }
-            } 
-                
-    }
-    
-        nav {     
-            margin: 0 1%;
-            box-shadow: 0 0 10px 0 rgba( 31, 38, 135, 0.37 );
-            backdrop-filter: blur( 13px );
-            -webkit-backdrop-filter: blur( 13px );
-            padding-top: 3%;
-            ul {
-                display: flex;
-                flex-direction: row; 
-                padding-top: 1%;           
-                li {
-                    display: flex;               
-                    padding: 0 30px;
-                    font-size: 1rem;                
-                    a {
-                        color: rgb(0, 0, 0);  
-                        font-family: 'Nunito', sans-serif; 
-                            &:hover {
-                                text-decoration: none;
-                                color: rgb(222, 90, 38);
-                                font-weight: bolder;
-                            }
-                        }
-
-                        .css-button-fully-rounded--black {
-                        min-width: 130px;
-                        height: 40px;
-                        color: #fff;
-                        cursor: pointer;
-                        transition: all 0.3s ease;
-                        position: relative;
-                        display: inline-block;
-                        outline: none;
-                        border-radius: 20px;
-                        border: 2px solid #212529;
-                        background: #212529;
+                        text-decoration: none;
+                        color: rgb(21, 8, 2);
+                        font-weight: bolder;
                     }
-                        .css-button-fully-rounded--black:hover {
-                        background:  rgb(222, 90, 38);
-                        color: #293f03
-                    }
-
                 }
             }
         }
 
     }
+
+    nav {
+        margin: 0 1%;
+        box-shadow: 0 0 10px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(13px);
+        -webkit-backdrop-filter: blur(13px);
+        padding-top: 3%;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            padding-top: 1%;
+
+            li {
+                display: flex;
+                padding: 0 30px;
+                font-size: 1rem;
+
+                a {
+                    color: rgb(0, 0, 0);
+                    font-family: 'Nunito', sans-serif;
+
+                    &:hover {
+                        text-decoration: none;
+                        color: rgb(222, 90, 38);
+                        font-weight: bolder;
+                    }
+                }
+
+                .css-button-fully-rounded--black {
+                    min-width: 130px;
+                    height: 40px;
+                    color: #fff;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    position: relative;
+                    display: inline-block;
+                    outline: none;
+                    border-radius: 20px;
+                    border: 2px solid #212529;
+                    background: #212529;
+                }
+
+                .css-button-fully-rounded--black:hover {
+                    background: rgb(222, 90, 38);
+                    color: #293f03
+                }
+
+            }
+        }
+    }
+
+}
 
 /*HEADER RESPONSIVE*/
 
@@ -108,7 +116,7 @@ header{
 @media (max-width: 992px) {
     .redesSocialesIconos {
         padding-left: 20%;
-}
+    }
 }
 
 
@@ -116,52 +124,39 @@ header{
 
 @media (max-width: 768px) {
     header {
-    display: grid;
-    grid-template-areas: "claseGridHeader" "leyendaSR";
-   
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 1fr;
-    
+        display: grid;
+        grid-template-areas: "claseGridHeader""leyendaSR";
 
-    nav {ul {
-        display: flex;
-        flex-direction: column; 
-        padding-top: 4%;  
-        .buttonlogin{
-            margin-top: 5%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
 
-        } }}
 
-    .redesSocialesIconos {
-        padding-left: 20%;
+        nav {
+            ul {
+                display: flex;
+                flex-direction: column;
+                padding-top: 4%;
+
+                .buttonlogin {
+                    margin-top: 5%;
+
+                }
+            }
+        }
+
+        .redesSocialesIconos {
+            padding-left: 20%;
+        }
+    }
+
 }
-}
 
-}
-    
 
 
 .logo {
     width: 10%;
 }
-  
-
-
-   /*Small devices (landscape phones, 576px and up)*/
-
-    
 
 
 
-
-    
-    
-
-
-
-
-
-
-            
-        
-       
+/*Small devices (landscape phones, 576px and up)*/
