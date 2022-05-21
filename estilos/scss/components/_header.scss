@@ -10,32 +10,35 @@ header{
     /* leyenda apaisada top con h1*/
         
     .leyendaSR {
-        margin:0 1%;
+        
+        margin: 0 1%;
         background-color: rgba(39, 60, 93);
         backdrop-filter: blur( 13px );
-       h1{&:hover {
-            color: rgb(184, 209, 249);
-            transition: all 1s ease;}}
-        
-         
-            .logo {
-               width: 30%; 
-               padding: 1%; 
+            h1{
                 &:hover {
-                transform: scale(120%);
-                transition: all 1s;
-            }    
+                color: rgb(184, 209, 249);
+                transition: all 1s ease;}}
+        
+            .logo {
+                             
+                width: 25%;                
+                    &:hover {
+                    transform: scale(120%);
+                    transition: all 1s;
+                }    
                  
             }   
     
             .redesSocialesIconos {
-                display: flex;
+                display: flex;               
                 flex-direction: row;
                 list-style: none;
-            
+                           
                 .redessociales {
-                   padding:15% ;  
-                   font-size: 1em;          
+                    padding: 10%;
+                    font-size: 1rem;
+                   
+                            
                         a  {                       
                                 color: rgb(222, 90, 38);  
                                 &:hover {
@@ -50,7 +53,7 @@ header{
     }
     
         nav {     
-            
+            margin: 0 1%;
             box-shadow: 0 0 10px 0 rgba( 31, 38, 135, 0.37 );
             backdrop-filter: blur( 13px );
             -webkit-backdrop-filter: blur( 13px );
@@ -97,40 +100,67 @@ header{
 
     }
 
+/*HEADER RESPONSIVE*/
+
+/*Large devices max (desktops, 992px and up)*/
 
 
-
-// Small devices (landscape phones, 576px and up)
-
-// Medium devices (tablets, 768px and up)
 @media (max-width: 992px) {
-    .header {
-    display: grid ;
-    grid-template-areas: "leyendaSR" "claseGridHeader" ; 
-    grid-template-columns: 1fr 1fr;
+    .redesSocialesIconos {
+        padding-left: 20%;
+}
+}
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+@media (max-width: 768px) {
+    header {
+    display: grid;
+    grid-template-areas: "claseGridHeader" "leyendaSR";
+   
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+    
+
+    nav {ul {
+        display: flex;
+        flex-direction: column; 
+        padding-top: 4%;  
+        .buttonlogin{
+            margin-top: 5%;
+
+        } }}
+
+    .redesSocialesIconos {
+        padding-left: 20%;
+}
+}
+
 }
     
-                  
-    }
+
+
+.logo {
+    width: 10%;
+}
+  
+
+
+   /*Small devices (landscape phones, 576px and up)*/
 
     
 
 
-    
-
-
 
 
     
     
 
-// Large devices (desktops, 992px and up)
 
 
-// X-Large devices (large desktops, 1200px and up)
 
 
-// XX-Large devices (larger desktops, 1400px and up)
 
             
         

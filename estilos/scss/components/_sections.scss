@@ -4,7 +4,7 @@ body {
     
 }
 
-.h1 {
+h1 {
     @include tipography-FamilySizeWeightStyleColor ('dancing script', 1.7rem, bold, none, white);
 }
 
@@ -280,7 +280,7 @@ h6 {
 
 
 
-
+/*Formulario de registro */
 
     .form-register {
         width: 90%;
@@ -358,6 +358,12 @@ h6 {
 
 }
 
+
+/*Formulario de registro */
+
+
+/*Pagina perfil usuario */
+
 .gridAlumni {
     @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 0% 2%, 0, rgba(249, 244, 232, 0.923));
     box-shadow: 0 8px 32px 0 rgba(47, 53, 137, 0.37);
@@ -397,3 +403,73 @@ h6 {
 }
 
 
+
+/*BODY RESPONSIVE*/
+
+
+@media (max-width: 768px) { 
+    .body { 
+       margin: 0;
+       
+     }
+
+       .sectionPresentation {
+    @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));  
+}
+
+
+/* informacion sobre las clases individuales, grupales e infantiless*/
+#sectionClases {
+    @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
+                      
+    }
+ 
+* direccion y mapas de las sedes*
+#sectionSedes {
+    
+    @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
+         
+    }
+  
+
+/* formulario de contacto*/
+#sectionFormulario {
+    @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 0 1% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
+         
+}
+    
+/* animacion para comienzo-animacion para texto inscribite*/
+
+
+.WapAnimada {
+    top: 100%;
+    margin-right: 2%;
+}
+   
+}
+
+
+
+/*HEADER RESPONSIVE*/
+
+/*Large devices max (desktops, 992px and up)*/
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+/*Small devices (phones, 576px and up)*/
+
+@media (max-width: 576px) {
+    h3 {
+        margin: 2% 1%;
+        
+    }
+
+
+
+}
+
+
+
+
+    
