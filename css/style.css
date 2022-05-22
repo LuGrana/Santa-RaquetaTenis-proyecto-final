@@ -42,7 +42,7 @@ header .leyendaSR .redesSocialesIconos {
   list-style: none;
 }
 header .leyendaSR .redesSocialesIconos .redessociales {
-  padding: 10%;
+  padding: 0 10% 0 0;
   font-size: 1rem;
 }
 header .leyendaSR .redesSocialesIconos .redessociales a {
@@ -106,28 +106,25 @@ header nav ul li .css-button-fully-rounded--black:hover {
 }
 /*Medium devices (tablets, 768px and up)*/
 @media (max-width: 768px) {
-  header {
-    display: grid;
-    grid-template-areas: "claseGridHeader" "leyendaSR";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+  .navbar {
+    grid-area: navbar;
+    display: flex;
+    flex-direction: row;
   }
-  header nav ul {
+  .navbar ul {
     display: flex;
     flex-direction: column;
     padding-top: 4%;
   }
-  header nav ul .buttonlogin {
+  .navbar ul .buttonlogin {
     margin-top: 5%;
   }
-  header .redesSocialesIconos {
-    padding-left: 20%;
+}
+@media (max-width: 768px) and (max-width: 992px) {
+  .redesSocialesIconos {
+    padding-left: 0%;
   }
 }
-.logo {
-  width: 10%;
-}
-
 /*Small devices (landscape phones, 576px and up)*/
 body {
   margin: 0 6%;

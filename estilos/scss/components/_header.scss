@@ -37,7 +37,7 @@ header {
             list-style: none;
 
             .redessociales {
-                padding: 10%;
+                padding: 0 10% 0 0;
                 font-size: 1rem;
 
 
@@ -124,14 +124,13 @@ header {
 
 @media (max-width: 768px) {
     header {
-        display: grid;
-        grid-template-areas: "claseGridHeader""leyendaSR";
+           
+        }
+        .navbar {
+            grid-area: navbar;
+            display: flex;
+            flex-direction: row;
 
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
-
-
-        nav {
             ul {
                 display: flex;
                 flex-direction: column;
@@ -144,19 +143,20 @@ header {
             }
         }
 
-        .redesSocialesIconos {
-            padding-left: 20%;
+        @media (max-width: 992px) {
+            .redesSocialesIconos {
+                padding-left: 0%;
+            }
         }
+          
     }
-
-}
-
-
-
-.logo {
-    width: 10%;
-}
+   
 
 
 
 /*Small devices (landscape phones, 576px and up)*/
+
+
+
+
+
