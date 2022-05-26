@@ -39,10 +39,13 @@
 </head>
 
 <body>
+    <!--header con logo, navbar y link a redes sociales y mail-->
+
     <header class="container-fluid">
         <div class="leyendaSR">
-            <div class="row d-flex justify-content-center align-self-center">
-                <div class="col-3 d-flex justify-content-center">
+            <div class="row justify-content-center">
+                <div
+                    class="col-lg-3 col-md-3 col-sm-6 py-2 d-flex justify-content-center align-self-center">
                     <!--Logo de Santa Raqueta-->
                     <div class="logo">
                         <a href="index.html"><img src="images/logo_transparent.png"
@@ -51,14 +54,15 @@
                     </div>
                 </div>
 
-                <div class="col-6 pt-3 d-flex justify-content-center">
+                <div
+                    class="col-md-6 col-lg-6 d-flex justify-content-center align-self-center">
 
-                    <h1 class="h1">Santa Raqueta Tenis</h1>
+                    <h1>Santa Raqueta Tenis</h1>
 
                 </div>
 
 
-                <div class="col-3 pt-3 d-flex justify-content-start">
+                <div class="col-md-12 col-lg-3 col-sm-6 d-flex justify-content-center justify-content-md-start align-self-center">
                     <ul class="redesSocialesIconos">
                         <!--link a correo electrónico -->
                         <li class="redessociales">
@@ -66,7 +70,7 @@
 
                             <!--linkea a whatsapp propio que aun no existe-->
                         <li class="redessociales">
-                            <a href="https://web.whatsapp.com/"><i class="bi bi-facebook"></i></a>
+                            <a href="https://www.facebook.com/"><i class="bi bi-facebook"></i></a>
                         </li>
 
                         <!--link a instagram que aun no existe-->
@@ -75,7 +79,7 @@
                         </li>
 
                         <li class="redessociales">
-                            <a href="https://www.instagram.com/"><i class="bi bi-whatsapp"></i></a>
+                            <a href="https://www.whatsapp.com/"><i class="bi bi-whatsapp"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -84,7 +88,23 @@
 
 
 
+        <!--navbar-->
 
+
+        <div class="claseGridHeader">
+            <nav class="navbar d-flex justify-content-center align-content-center">
+                <ul class="menuprincipal">
+                    <li class="itemmenu"><a href="index.html">Inicio</a></li>
+                    <li class="itemmenu"><a href="#sectionClases">Clases</a></li>
+                    <li class="itemmenu"><a href="#sectionSedes">Sedes</a></li>
+                    <li class="itemmenu"><a href="#sectionFormulario">Contacto</a></li>
+                    <li class="buttonlogin"><a href="loginForm.html"><button type="submit"
+                                class="css-button-fully-rounded--black" data-bs-toggle="modalInscripcion"
+                                data-bs-target="#modalInscripcion"> login</button></a></li>
+
+                </ul>
+            </nav>
+        </div>
     </header>
     <!--fin de header-->
 
