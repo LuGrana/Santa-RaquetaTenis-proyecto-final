@@ -436,20 +436,20 @@ h6 {
 
     /* informacion sobre las clases individuales, grupales e infantiless*/
     #sectionClases {
-        @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
+        @include paddingbordermarginRaiusBgColor (90% 0 0 0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
 
     }
 
     * direccion y mapas de las sedes* #sectionSedes {
 
-        @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
+        @include paddingbordermarginRaiusBgColor (90% 0 0 0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
 
     }
 
 
     /* formulario de contacto*/
     #sectionFormulario {
-        @include paddingbordermarginRaiusBgColor (0, 1px solid rgba(255, 255, 255, 0.18), 0 1% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
+        @include paddingbordermarginRaiusBgColor (90% 0 0 0, 1px solid rgba(255, 255, 255, 0.18), 0 1% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
 
     }
 
@@ -490,9 +490,6 @@ h6 {
 
 
 }
-}
 
-#sectionClases {
-    @include paddingbordermarginRaiusBgColor (100% 1%, 1px solid rgba(255, 255, 255, 0.18), 5% 1% 0 1%, 0, rgba(249, 244, 232, 0.45));
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
 }
