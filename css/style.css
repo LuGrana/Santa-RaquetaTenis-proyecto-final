@@ -523,6 +523,9 @@ h6 {
   border-radius: 0;
   background-color: rgb(225, 235, 250);
 }
+.comunidadAlumni h3 {
+  margin-top: 4%;
+}
 
 /*BODY RESPONSIVE*/
 /*Medium devices (tablets, 768px and up)*/

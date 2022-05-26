@@ -410,6 +410,9 @@ h6 {
 .comunidadAlumni {
     grid-area: comunidadAlumni;
     @include paddingbordermarginRaiusBgColor (1%, 1px solid rgba(255, 255, 255, 0.18), 0%, 0, rgb(225, 235, 250));
+    h3{
+        margin-top: 4%;
+    }
 }
 
 
