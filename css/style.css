@@ -481,10 +481,10 @@ h6 {
   background-color: rgba(249, 244, 232, 0.923);
   box-shadow: 0 8px 32px 0 rgba(47, 53, 137, 0.37);
   display: grid;
-  grid-template-areas: "navbarAlumni mainAlumniHeader mainAlumniHeader" "navbarAlumni mainAlumni mainAlumni" "navbarAlumni comunidadAlumni comunidadAlumni";
+  grid-template-areas: "navbarAlumni mainAlumniHeader mainAlumniHeader" "navbarAlumni comunidadAlumni comunidadAlumni";
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 1fr;
-  gap: 1% px;
+  gap: 0%;
 }
 .gridAlumni h3 {
   margin: 0 10% 4% 5%;
@@ -515,22 +515,13 @@ h6 {
   background-color: rgba(249, 244, 232, 0.923);
 }
 
-.mainAlumni {
-  grid-area: mainAlumni;
-  padding: 0;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  margin: 0%;
-  border-radius: 0;
-  background-color: rgba(249, 244, 232, 0.923);
-}
-
 .comunidadAlumni {
   grid-area: comunidadAlumni;
-  padding: 2%;
+  padding: 1%;
   border: 1px solid rgba(255, 255, 255, 0.18);
   margin: 0%;
   border-radius: 0;
-  background-color: rgb(166, 198, 249);
+  background-color: rgb(225, 235, 250);
 }
 
 /*BODY RESPONSIVE*/
@@ -585,6 +576,20 @@ h6 {
 @media (max-width: 576px) {
   h3 {
     margin: 2% 1%;
+  }
+
+  .gridAlumni {
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    margin: 0% 2%;
+    border-radius: 0;
+    background-color: rgba(249, 244, 232, 0.923);
+    box-shadow: 0 8px 32px 0 rgba(47, 53, 137, 0.37);
+    display: grid;
+    grid-template-areas: "navbarAlumni" "mainAlumniHeader" "comunidadAlumni";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    gap: 1%;
   }
 }
 .FooterStyle {
