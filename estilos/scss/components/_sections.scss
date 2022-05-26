@@ -373,10 +373,9 @@ h6 {
     display: grid;
     grid-template-areas:
         "navbarAlumni mainAlumniHeader mainAlumniHeader"
-       
         "navbarAlumni comunidadAlumni comunidadAlumni";
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr auto;
     gap: 0%;
 
 
@@ -491,4 +490,9 @@ h6 {
 
 
 }
+}
+
+#sectionClases {
+    @include paddingbordermarginRaiusBgColor (100% 1%, 1px solid rgba(255, 255, 255, 0.18), 5% 1% 0 1%, 0, rgba(249, 244, 232, 0.45));
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
