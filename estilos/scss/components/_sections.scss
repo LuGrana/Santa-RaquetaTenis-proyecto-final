@@ -436,7 +436,7 @@ h6 {
 
     /* informacion sobre las clases individuales, grupales e infantiless*/
     #sectionClases {
-        @include paddingbordermarginRaiusBgColor (60% 0 0 0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
+        @include paddingbordermarginRaiusBgColor (30% 0 0 0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
 
     }
 
@@ -444,7 +444,7 @@ h6 {
     
     #sectionSedes {
 
-        @include paddingbordermarginRaiusBgColor (60% 0 0 0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
+        @include paddingbordermarginRaiusBgColor (30% 0 0 0, 1px solid rgba(255, 255, 255, 0.18), 2% 0 0 0, 1px, rgba(249, 244, 232, 0.45));
 
     }
 

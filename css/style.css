@@ -545,7 +545,7 @@ h6 {
 
   /* informacion sobre las clases individuales, grupales e infantiless*/
   #sectionClases {
-    padding: 60% 0 0 0;
+    padding: 30% 0 0 0;
     border: 1px solid rgba(255, 255, 255, 0.18);
     margin: 2% 0 0 0;
     border-radius: 1px;
@@ -554,7 +554,7 @@ h6 {
 
   /* direccion y mapas de las sedes*/
   #sectionSedes {
-    padding: 60% 0 0 0;
+    padding: 30% 0 0 0;
     border: 1px solid rgba(255, 255, 255, 0.18);
     margin: 2% 0 0 0;
     border-radius: 1px;
